@@ -89,8 +89,6 @@
 
 </div>
 
-### 数字で見る GitHub
-
 <div align="center">
 
 [![Followers](https://img.shields.io/github/followers/kokonao1111?logo=github&style=for-the-badge&label=Followers&labelColor=0d1117&color=58a6ff)](https://github.com/kokonao1111?tab=followers)
@@ -99,10 +97,14 @@
 
 </div>
 
-## Quote
+## 一言 · Quote
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Random dev quote" />
+
+*コードが多ければ多いほど、バグが潜む場所も増える。*
+
+— Rich Skrenta
+
 </div>
 
 <div align="center">
