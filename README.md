@@ -97,7 +97,7 @@
 
 </div>
 
-## 一言 · Quote
+## 名言 · Famous quote
 
 <div align="center">
 
