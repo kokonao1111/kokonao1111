@@ -31,7 +31,7 @@
 | **School** | HAL東京 · 高度情報学科 |
 | **Location** | Japan |
 | **Focus** | Web · スクリプト · 体験設計 |
-| **Fuel** | コーヒーと好奇心 |
+| **やりがい** | 動いたときの達成感 |
 
 </td>
 </tr>
@@ -146,7 +146,7 @@
 </div>
 
 ## 名言 · Random quote
-
+Profile views
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Random developer quote" />
 </div>
