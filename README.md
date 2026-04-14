@@ -61,11 +61,14 @@
 ### Web（静的・フロント）
 <img src="https://skillicons.dev/icons?i=html,css,javascript" alt="HTML, CSS, JavaScript" />
 
-### Tools
-<img src="https://skillicons.dev/icons?i=vscode,git,github" alt="VS Code, Git, GitHub" />
+### Python
+<img src="https://skillicons.dev/icons?i=python" alt="Python" />
 
-### BaaS · Cloud
-<img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" />
+### Tools
+<img src="https://skillicons.dev/icons?i=vscode,git,github" alt="VS Code, Git, GitHub" /><img src="https://cdn.simpleicons.org/gitkraken/179287" height="48" alt="GitKraken" title="GitKraken" />
+
+### Cloud · BaaS
+<img src="https://skillicons.dev/icons?i=firebase,gcp" alt="Firebase, Google Cloud" />
 
 </td>
 <td width="50%" align="center" valign="top">
