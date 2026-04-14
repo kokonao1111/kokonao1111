@@ -49,13 +49,18 @@
 
 <div align="center">
 
+<a href="https://kokonao1111.github.io/naohirokobayasi-Portfolio/">
+  <img src="https://img.shields.io/badge/Portfolio-サイトを開く-238636?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Portfolio site" />
+</a>
+&nbsp;
 <a href="https://github.com/kokonao1111/naohirokobayasi-Portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kokonao1111&repo=naohirokobayasi-Portfolio&theme=github_dark&show_owner=true" alt="Portfolio: naohirokobayasi-Portfolio" />
+  <img src="https://img.shields.io/github/stars/kokonao1111/naohirokobayasi-Portfolio?style=for-the-badge&logo=github&label=Stars&labelColor=0d1117&color=30363d" alt="Stars" />
+  <img src="https://img.shields.io/github/languages/top/kokonao1111/naohirokobayasi-Portfolio?style=for-the-badge&labelColor=0d1117&color=238636" alt="Top language" />
 </a>
 
-<br>
+<br><br>
 
-[**naohirokobayasi-Portfolio**（ポートフォリオ）を GitHub で見る →](https://github.com/kokonao1111/naohirokobayasi-Portfolio)
+**[ポートフォリオを見る（GitHub Pages）](https://kokonao1111.github.io/naohirokobayasi-Portfolio/)** · [**リポジトリ**](https://github.com/kokonao1111/naohirokobayasi-Portfolio)
 
 </div>
 
