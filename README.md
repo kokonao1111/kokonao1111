@@ -51,37 +51,29 @@
 
 ## Tech stack
 
-<table align="center">
-<tr>
-<td width="50%" align="center" valign="top">
+<div align="center">
 
-### Mobile · クロスプラットフォーム
-<img src="https://skillicons.dev/icons?i=flutter,dart,swift" alt="Flutter, Dart, Swift" />
+<sub>アプリ · Web · スクリプト · クラウド · クリエイティブをひと続きで</sub>
 
-### Web（静的・フロント）
-<img src="https://skillicons.dev/icons?i=html,css,javascript" alt="HTML, CSS, JavaScript" />
+<br><br>
 
-### Python
-<img src="https://skillicons.dev/icons?i=python" alt="Python" />
+**開発** · *Build*
 
-### Tools
-<img src="https://skillicons.dev/icons?i=vscode,git,github" alt="VS Code, Git, GitHub" /><img src="https://cdn.simpleicons.org/gitkraken/179287" height="48" alt="GitKraken" title="GitKraken" />
+<img src="https://skillicons.dev/icons?i=flutter,dart,swift,html,css,javascript,python&theme=dark&perline=8" alt="Flutter, Dart, Swift, HTML, CSS, JavaScript, Python" />
 
-### Cloud · BaaS
-<img src="https://skillicons.dev/icons?i=firebase,gcp" alt="Firebase, Google Cloud" />
+<br><br>
 
-</td>
-<td width="50%" align="center" valign="top">
+**運用 · 連携** · *Ship*
 
-### Data（ローカル）
-<img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" />
+<img src="https://skillicons.dev/icons?i=vscode,git,github,firebase,gcp,sqlite&theme=dark&perline=8" alt="VS Code, Git, GitHub, Firebase, GCP, SQLite" /><img src="https://cdn.simpleicons.org/gitkraken/179287" height="48" alt="GitKraken" title="GitKraken" />
 
-### Design · Creative
-<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,premiere" alt="Figma, Photoshop, Illustrator, Premiere Pro" />
+<br><br>
 
-</td>
-</tr>
-</table>
+**クリエイティブ** · *Create*
+
+<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,premiere&theme=dark" alt="Figma, Photoshop, Illustrator, Premiere Pro" />
+
+</div>
 
 ## Trophies
 
