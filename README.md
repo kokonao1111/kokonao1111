@@ -97,12 +97,6 @@
 [![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fkokonao1111&query=%24.public_repos&label=Public%20repos&style=for-the-badge&logo=github&labelColor=0d1117&color=238636)](https://github.com/kokonao1111?tab=repositories)
 [![Profile views](https://komarev.com/ghpvc/?username=kokonao1111&label=Profile%20views&color=58a6ff&style=for-the-badge&labelColor=0d1117)](https://github.com/kokonao1111)
 
-<br><br>
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=kokonao1111&theme=algolia&no-frame=false&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub trophies" />
-</a>
-
 </div>
 
 ## Quote
@@ -120,5 +114,5 @@
 
   **[@kokonao1111](https://github.com/kokonao1111)** · naohiro
 
-  *Ship small, learn fast. 小さく出して、早く学ぶ。*
+  *ITの技術で、未来を明るいものに。*
 </div>
