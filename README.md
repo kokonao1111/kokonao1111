@@ -66,6 +66,10 @@
   <img src="https://img.shields.io/github/stars/kokonao1111/emonaru?style=for-the-badge&logo=github&label=Stars&labelColor=0d1117&color=30363d" alt="emonaru Stars" />
   <img src="https://img.shields.io/github/languages/top/kokonao1111/emonaru?style=for-the-badge&labelColor=0d1117&color=238636" alt="emonaru top language" />
 </a>
+&nbsp;
+<a href="https://apps.apple.com/jp/app/%E3%82%A8%E3%83%A2%E3%83%8A%E3%83%AB/id6758684026">
+  <img src="https://img.shields.io/badge/App%20Store-エモナルを見る-0D96F6?style=for-the-badge&logo=apple&logoColor=white&labelColor=0d1117" alt="App Store" />
+</a>
 
 </div>
 
