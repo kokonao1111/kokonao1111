@@ -45,6 +45,20 @@
   <a href="https://github.com/kokonao1111"><img src="https://img.shields.io/badge/GitHub-kokonao1111-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
 </div>
 
+## Portfolio · Pinned
+
+<div align="center">
+
+<a href="https://github.com/kokonao1111/naohirokobayasi-Portfolio">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kokonao1111&repo=naohirokobayasi-Portfolio&theme=github_dark&show_owner=true" alt="Portfolio: naohirokobayasi-Portfolio" />
+</a>
+
+<br>
+
+[**naohirokobayasi-Portfolio**（ポートフォリオ）を GitHub で見る →](https://github.com/kokonao1111/naohirokobayasi-Portfolio)
+
+</div>
+
 ## GitHub
 
 <div align="center">
@@ -70,6 +84,16 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kokonao1111&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true" alt="Activity graph" />
+</div>
+
+### Contribution snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kokonao1111/kokonao1111/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kokonao1111/kokonao1111/output/github-snake.svg" />
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/kokonao1111/kokonao1111/output/github-snake.svg" />
+  </picture>
 </div>
 
 ## Tech stack
