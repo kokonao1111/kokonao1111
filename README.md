@@ -55,10 +55,14 @@
   <table>
   <tr>
   <td align="center" valign="top">
-    <img src="https://github-readme-stats.vercel.app/api?username=kokonao1111&show_icons=true&theme=tokyonight&hide_border=true&locale=ja&include_all_commits=true&rank_icon=github" alt="GitHub stats" />
+    <a href="https://github.com/kokonao1111">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kokonao1111&theme=github_dark" alt="GitHub profile summary" />
+    </a>
   </td>
   <td align="center" valign="top">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kokonao1111&layout=compact&theme=tokyonight&hide_border=true&locale=ja&langs_count=8" alt="Top languages" />
+    <a href="https://github.com/kokonao1111?tab=repositories">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kokonao1111&theme=github_dark" alt="Repos per language" />
+    </a>
   </td>
   </tr>
   </table>
