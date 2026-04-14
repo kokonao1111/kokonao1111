@@ -97,7 +97,7 @@
 
 </div>
 
-## 名言 · Random quote
+##  Random quote
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Random developer quote" />
