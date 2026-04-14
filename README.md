@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2600&pause=1800&color=A9FEF7&center=true&vCenter=true&width=750&lines=naohiro+%E2%80%94+Flutter+%26+Mobile+%F0%9F%93%B1;HAL%E6%9D%B1%E4%BA%AC+%C2%B7+%E9%AB%98%E5%BA%A6%E6%83%85%E5%A0%B1%E5%AD%A6%E7%A7%91+%F0%9F%8E%93;%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E6%9C%AA%E6%9D%A5%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%82%8B;Coffee+%2B+docs+%2B+curiosity+%E2%98%95" alt="Typing intro" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2600&pause=1800&color=A9FEF7&center=true&vCenter=true&width=750&lines=naohiro+%E2%80%94+Web+%C2%B7+Swift+%C2%B7+Python;HAL%E6%9D%B1%E4%BA%AC+%C2%B7+%E9%AB%98%E5%BA%A6%E6%83%85%E5%A0%B1%E5%AD%A6%E7%A7%91+%F0%9F%8E%93;%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E6%9C%AA%E6%9D%A5%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%82%8B;Coffee+%2B+docs+%2B+curiosity+%E2%98%95" alt="Typing intro" />
 </div>
 
 ## About
@@ -17,20 +17,20 @@
 <table>
 <tr>
 <td width="200" align="center">
-<img src="https://skillicons.dev/icons?i=flutter,dart" width="120" alt="Flutter / Dart" />
-<br><strong>Flutter · Dart</strong>
+<img src="https://skillicons.dev/icons?i=html,css,javascript" width="120" alt="HTML, CSS, JavaScript" />
+<br><strong>Web · Front</strong>
 </td>
 <td width="420" align="left">
 
 ### naohiro
 
-**HAL東京** 高度情報学科。モバイルアプリと **Flutter** を中心に、Web や課題制作も積み上げています。UI の気持ちよさと、ちゃんと動く実装の両方を大事にしています。
+**HAL東京** 高度情報学科。Web や課題・コンテスト制作を中心に、**Swift** や **Python** も使い分けています。必要に応じて **Flutter** も触ります。UI の気持ちよさと、ちゃんと動く実装の両方を大事にしています。
 
 | | |
 |:---|:---|
 | **School** | HAL東京 · 高度情報学科 |
 | **Location** | Japan |
-| **Focus** | Flutter · モバイル · 体験設計 |
+| **Focus** | Web · スクリプト · 体験設計 |
 | **Fuel** | コーヒーと好奇心 |
 
 </td>
@@ -59,7 +59,7 @@
 
 **開発** · *Build*
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,swift,html,css,javascript,python&theme=dark&perline=8" alt="Flutter, Dart, Swift, HTML, CSS, JavaScript, Python" />
+<img src="https://skillicons.dev/icons?i=html,css,javascript,python,swift,flutter,dart&theme=dark&perline=8" alt="HTML, CSS, JavaScript, Python, Swift, Flutter, Dart" />
 
 <br><br>
 
