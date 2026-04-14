@@ -31,7 +31,7 @@
 | **School** | HAL東京 · 高度情報学科 |
 | **Location** | Japan |
 | **Focus** | Flutter · モバイル · 体験設計 |
-| **Fuel** | コーヒーと新しいドキュメント |
+| **Fuel** | コーヒーと好奇心 |
 
 </td>
 </tr>
