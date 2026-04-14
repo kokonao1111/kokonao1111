@@ -77,6 +77,20 @@
 
 ## 実績 · Achievements
 
+### コンテスト · 受賞
+
+<div align="center">
+
+| コンテスト | 受賞 |
+|:---:|:---:|
+| **HEW** 学内コンテスト | **金賞** |
+| **三校合同** コンテスト | **構成力賞** |
+| 学内 **1day** ハッカソン | **銀賞** |
+
+</div>
+
+### 数字で見る GitHub
+
 <div align="center">
 
 [![Followers](https://img.shields.io/github/followers/kokonao1111?logo=github&style=for-the-badge&label=Followers&labelColor=0d1117&color=58a6ff)](https://github.com/kokonao1111?tab=followers)
@@ -84,8 +98,6 @@
 [![Profile views](https://komarev.com/ghpvc/?username=kokonao1111&label=Profile%20views&color=58a6ff&style=for-the-badge&labelColor=0d1117)](https://github.com/kokonao1111)
 
 <br><br>
-
-### GitHub Trophies
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
   <img src="https://github-profile-trophy.vercel.app/?username=kokonao1111&theme=algolia&no-frame=false&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub trophies" />
