@@ -75,7 +75,7 @@
   </td>
   <td align="center" valign="top">
     <a href="https://github.com/kokonao1111?tab=repositories">
-      <img src="https://raw.githubusercontent.com/kokonao1111/kokonao1111/main/profile-lang-donut.svg" alt="Top Languages by Repo（HTML / CSS / Python）" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kokonao1111&theme=dracula" alt="Top Languages by Repo" />
     </a>
   </td>
   </tr>
