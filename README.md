@@ -55,26 +55,26 @@
 <tr>
 <td width="50%" align="center" valign="top">
 
-### Mobile
-<img src="https://skillicons.dev/icons?i=flutter,dart" alt="Mobile" />
+### Mobile · クロスプラットフォーム
+<img src="https://skillicons.dev/icons?i=flutter,dart,swift" alt="Flutter, Dart, Swift" />
 
-### BaaS
-<img src="https://skillicons.dev/icons?i=supabase,firebase" alt="BaaS" />
+### Web（静的・フロント）
+<img src="https://skillicons.dev/icons?i=html,css,javascript" alt="HTML, CSS, JavaScript" />
 
 ### Tools
-<img src="https://skillicons.dev/icons?i=vscode,git,github,postman" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=vscode,git,github" alt="VS Code, Git, GitHub" />
+
+### BaaS · Cloud
+<img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" />
 
 </td>
 <td width="50%" align="center" valign="top">
 
-### Data
-<img src="https://skillicons.dev/icons?i=postgresql,sqlite" alt="Data" />
+### Data（ローカル）
+<img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" />
 
-### Design
-<img src="https://skillicons.dev/icons?i=figma,xd,photoshop" alt="Design" />
-
-### More
-<img src="https://skillicons.dev/icons?i=ruby,rails,js,ts,html,css" alt="More" />
+### Design · Creative
+<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,premiere" alt="Figma, Photoshop, Illustrator, Premiere Pro" />
 
 </td>
 </tr>
