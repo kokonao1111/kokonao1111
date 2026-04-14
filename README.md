@@ -1,34 +1,37 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900" alt="divider" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=header&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=header&animation=twinkling" alt="header wave" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+User+%F0%9F%91%8B;Flutter+Developer+%F0%9F%9A%80;Mobile+App+Enthusiast+%E2%9C%A8;Always+Learning+New+Things+%F0%9F%93%9A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2600&pause=1800&color=A9FEF7&center=true&vCenter=true&width=680&lines=naohiro+%E2%80%94+Flutter+%26+Mobile+%F0%9F%93%B1;HAL%E6%9D%B1%E4%BA%AC+%C2%B7+%E9%AB%98%E5%BA%A6%E6%83%85%E5%A0%B1%E5%AD%A6%E7%A7%91+%F0%9F%8E%93;%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%80%8C%E3%81%A4%E3%81%8B%E3%81%88%E3%82%8B%E3%80%8D%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B;Coffee+%2B+docs+%2B+curiosity+%E2%98%95" alt="Typing intro" />
 </div>
 
-## 🌟 **About Me**
+## About
 
 <div align="center">
 
 <table>
 <tr>
 <td width="200" align="center">
-<img src="https://skillicons.dev/icons?i=flutter" width="100" height="100" alt="Flutter" />
-<br><strong>Flutter</strong>
+<img src="https://skillicons.dev/icons?i=flutter,dart" width="120" alt="Flutter / Dart" />
+<br><strong>Flutter · Dart</strong>
 </td>
-<td width="400" align="left">
+<td width="420" align="left">
 
-### 👋 **Hi, I'm User!**
-🚀 **Flutter Developer** passionate about mobile development  
+### naohiro
 
-🌍 **Location:** Japan 🇯🇵  
-💼 **Focus:** Building beautiful mobile applications  
-☕ **Powered by:** Coffee and curiosity  
-🎯 **Goal:** Creating amazing user experiences  
+**HAL東京** 高度情報学科。モバイルアプリと **Flutter** を中心に、Web や課題制作も積み上げています。UI の気持ちよさと、ちゃんと動く実装の両方を大事にしています。
+
+| | |
+|:---|:---|
+| **School** | HAL東京 · 高度情報学科 |
+| **Location** | Japan |
+| **Focus** | Flutter · モバイル · 体験設計 |
+| **Fuel** | コーヒーと新しいドキュメント |
 
 </td>
 </tr>
@@ -36,68 +39,67 @@
 
 </div>
 
-## 📊 **GitHub Analytics**
+## GitHub
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=user&theme=transparent&border_radius=10&starting_year=2020" alt="readme streak stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kokonao1111&theme=transparent&border_radius=10&starting_year=2020&locale=ja" alt="GitHub streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=user&custom_title=User's%20GitHub%20Activity%20Graph&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kokonao1111&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true" alt="Activity graph" />
 </div>
 
-## 🛠️ **Tech Stack**
+## Tech stack
 
 <table align="center">
 <tr>
 <td width="50%" align="center" valign="top">
 
-### 📱  **Mobile Development**
-<img src="https://skillicons.dev/icons?i=flutter,dart" />
+### Mobile
+<img src="https://skillicons.dev/icons?i=flutter,dart" alt="Mobile" />
 
-### ☁️  **Backend as a Service (BaaS)**
-<img src="https://skillicons.dev/icons?i=supabase,firebase" />
+### BaaS
+<img src="https://skillicons.dev/icons?i=supabase,firebase" alt="BaaS" />
 
-### 🔧  **Development Tools**
-<img src="https://skillicons.dev/icons?i=vscode,git,github,postman" />
+### Tools
+<img src="https://skillicons.dev/icons?i=vscode,git,github,postman" alt="Tools" />
 
 </td>
 <td width="50%" align="center" valign="top">
 
-### 🗄️  **Database**
-<img src="https://skillicons.dev/icons?i=postgresql,sqlite" />
+### Data
+<img src="https://skillicons.dev/icons?i=postgresql,sqlite" alt="Data" />
 
-### 🎨  **Design**
-<img src="https://skillicons.dev/icons?i=figma,xd,photoshop" />
+### Design
+<img src="https://skillicons.dev/icons?i=figma,xd,photoshop" alt="Design" />
 
-### 💻  **Languages & Frameworks**
-<img src="https://skillicons.dev/icons?i=ruby,rails,js,ts,html,css" />
+### More
+<img src="https://skillicons.dev/icons?i=ruby,rails,js,ts,html,css" alt="More" />
 
 </td>
 </tr>
 </table>
 
-## 🏆 **GitHub Trophies (Commits)**
+## Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=user&theme=transparent&no-frame=true&no-bg=false&margin-w=4&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&title=Commit,Commits" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kokonao1111&theme=transparent&no-frame=true&no-bg=false&margin-w=4&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&title=Commit,Commits" alt="GitHub trophies" />
 </div>
 
-## 💭 **Random Dev Quote**
+## Quote
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" />
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=twinkling" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Random dev quote" />
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
-  
-  **⭐ From [user](https://github.com/user) with ❤️**
-  
-  *"Flutter makes everything beautiful! 🦋"*
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=twinkling" alt="footer wave" />
 </div>
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14f0247f.gif" width="1000" alt="divider" />
+
+  **[@kokonao1111](https://github.com/kokonao1111)** · naohiro
+
+  *Ship small, learn fast. 小さく出して、早く学ぶ。*
+</div>
