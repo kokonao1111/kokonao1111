@@ -58,10 +58,6 @@
   <img src="https://img.shields.io/github/languages/top/kokonao1111/naohirokobayasi-Portfolio?style=for-the-badge&labelColor=0d1117&color=238636" alt="Top language" />
 </a>
 
-<br><br>
-
-**[ポートフォリオを見る（GitHub Pages）](https://kokonao1111.github.io/naohirokobayasi-Portfolio/)** · [**リポジトリ**](https://github.com/kokonao1111/naohirokobayasi-Portfolio)
-
 </div>
 
 ## GitHub
