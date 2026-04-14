@@ -31,7 +31,7 @@
 | **School** | HAL東京 · 高度情報学科 |
 | **Location** | Japan |
 | **Focus** | Web · スクリプト · 体験設計 |
-| **やりがい** | 動いたときの達成感 |
+| **Fulfillment** | 動いたときの達成感 |
 
 </td>
 </tr>
