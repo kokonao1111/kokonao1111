@@ -39,10 +39,29 @@
 
 </div>
 
+## Connect
+
+<div align="center">
+  <a href="https://github.com/kokonao1111"><img src="https://img.shields.io/badge/GitHub-kokonao1111-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+</div>
+
 ## GitHub
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kokonao1111&theme=transparent&border_radius=10&starting_year=2020&locale=ja" alt="GitHub streak" />
+</div>
+
+<div align="center">
+  <table>
+  <tr>
+  <td align="center" valign="top">
+    <img src="https://github-readme-stats.vercel.app/api?username=kokonao1111&show_icons=true&theme=tokyonight&hide_border=true&locale=ja&include_all_commits=true&rank_icon=github" alt="GitHub stats" />
+  </td>
+  <td align="center" valign="top">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kokonao1111&layout=compact&theme=tokyonight&hide_border=true&locale=ja&langs_count=8" alt="Top languages" />
+  </td>
+  </tr>
+  </table>
 </div>
 
 <div align="center">
@@ -97,7 +116,7 @@
 
 </div>
 
-##  Random quote
+## 名言 · Random quote
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Random developer quote" />
