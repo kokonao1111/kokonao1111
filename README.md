@@ -66,20 +66,34 @@
 </div>
 
 <div align="center">
-  <table>
-  <tr>
-  <td align="center" valign="top">
-    <a href="https://github.com/kokonao1111">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kokonao1111&theme=github_dark" alt="GitHub profile summary" />
-    </a>
-  </td>
-  <td align="center" valign="top">
-    <a href="https://github.com/kokonao1111?tab=repositories">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kokonao1111&theme=github_dark" alt="Repos per language" />
-    </a>
-  </td>
-  </tr>
-  </table>
+
+<p><strong>言語（リポジトリの割合）</strong> · <em>Top Languages by Repo</em></p>
+
+<table>
+<tr>
+<td align="center" valign="top">
+  <a href="https://github.com/kokonao1111">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kokonao1111&theme=tokyonight" alt="GitHub profile summary" />
+  </a>
+</td>
+<td align="center" valign="top">
+  <a href="https://github.com/kokonao1111?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kokonao1111&theme=tokyonight" alt="Repos per language" />
+  </a>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" colspan="2">
+  <br>
+  <p><strong>言語（コミットの割合）</strong> · <em>Top Languages in Commits</em></p>
+  <br>
+  <a href="https://github.com/kokonao1111?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kokonao1111&theme=tokyonight" alt="Most commit language" />
+  </a>
+</td>
+</tr>
+</table>
+
 </div>
 
 <div align="center">
