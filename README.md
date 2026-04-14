@@ -58,6 +58,15 @@
   <img src="https://img.shields.io/github/languages/top/kokonao1111/naohirokobayasi-Portfolio?style=for-the-badge&labelColor=0d1117&color=238636" alt="Top language" />
 </a>
 
+<br><br>
+
+<p><strong>emonaru</strong> · iOS アプリ</p>
+
+<a href="https://github.com/kokonao1111/emonaru">
+  <img src="https://img.shields.io/github/stars/kokonao1111/emonaru?style=for-the-badge&logo=github&label=Stars&labelColor=0d1117&color=30363d" alt="emonaru Stars" />
+  <img src="https://img.shields.io/github/languages/top/kokonao1111/emonaru?style=for-the-badge&labelColor=0d1117&color=238636" alt="emonaru top language" />
+</a>
+
 </div>
 
 ## GitHub
@@ -146,7 +155,7 @@
 </div>
 
 ## 名言 · Random quote
-Profile views
+
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Random developer quote" />
 </div>
