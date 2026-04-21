@@ -10,6 +10,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2600&pause=1800&color=A9FEF7&center=true&vCenter=true&width=900&lines=naohiro+%E2%80%94+Web+%C2%B7+Swift+%C2%B7+Python;HAL%E6%9D%B1%E4%BA%AC+%C2%B7+%E9%AB%98%E5%BA%A6%E6%83%85%E5%A0%B1%E5%AD%A6%E7%A7%91+%F0%9F%8E%93;%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E6%9C%AA%E6%9D%A5%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E4%BD%9C%E3%82%8B;Building+the+cutting-edge+future+with+my+own+hands" alt="Typing intro" />
 </div>
 
+
 ## About
 
 <div align="center">
