@@ -79,7 +79,7 @@
 ## GitHub
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=kokonao1111&theme=transparent&border_radius=10&starting_year=2020&locale=ja" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=kokonao1111&theme=transparent&border_radius=10&starting_year=2020&locale=ja&v=2026-05-12" alt="GitHub streak" />
 </div>
 
 <div align="center">
