@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 390" width="990" height="390" role="img" aria-label="GitHub contributions stats">
+  <title>GitHub contributions stats</title>
+  <style>
+    .border { fill: #0d1117; stroke: #e4e2e2; stroke-width: 2; }
+    .divider { stroke: #e4e2e2; stroke-width: 2; }
+    .number { fill: #006aff; font: 700 58px "Segoe UI", Ubuntu, sans-serif; }
+    .label { fill: #0587d8; font: 700 28px "Segoe UI", Ubuntu, sans-serif; }
+    .range { fill: #4b9aa4; font: 600 23px "Segoe UI", Ubuntu, sans-serif; }
+    .small { fill: #4b9aa4; font: 500 16px "Segoe UI", Ubuntu, sans-serif; }
+  </style>
+  <rect class="border" x="1" y="1" width="988" height="388" rx="20" />
+  <line class="divider" x1="330" y1="55" x2="330" y2="310" />
+  <line class="divider" x1="660" y1="55" x2="660" y2="310" />
+
+  <g text-anchor="middle">
+    <text class="number" x="165" y="128">106</text>
+    <text class="label" x="165" y="200">総コントリビューション数</text>
+    <text class="range" x="165" y="262">2026.1.1 - 今</text>
+    <text class="small" x="165" y="306">30分ごとに自動更新</text>
+
+    <circle cx="495" cy="143" r="80" fill="none" stroke="#006aff" stroke-width="10" />
+    <text class="number" x="495" y="165">4</text>
+    <text class="label" x="495" y="258">現在のストリーク</text>
+    <text class="range" x="495" y="310">5.9 - 5.12</text>
+
+    <text class="number" x="825" y="128">4</text>
+    <text class="label" x="825" y="200">最長のストリーク</text>
+    <text class="range" x="825" y="262">5.9 - 5.12</text>
+    <text class="small" x="825" y="306">Updated 2026.5.12 22:21 JST</text>
+  </g>
+</svg>

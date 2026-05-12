@@ -79,7 +79,7 @@
 ## GitHub
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=kokonao1111&theme=transparent&border_radius=10&starting_year=2020&locale=ja&v=2026-05-12" alt="GitHub streak" />
+  <img src="./assets/github-stats.svg?v=202605122221" alt="GitHub contributions stats" />
 </div>
 
 <div align="center">
