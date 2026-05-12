@@ -159,7 +159,7 @@ function renderSvg({ total, current, currentRange, longest, longestRange }) {
   const yearRange = `${tokyoYear}.1.1 - 今`;
   const updatedAt = `${tokyoYear}.${Number(tokyoMonth)}.${Number(tokyoDay)} ${tokyoHour}:${tokyoMinute} JST`;
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 390" width="990" height="390" role="img" aria-label="GitHub contributions stats">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 390" width="495" height="195" role="img" aria-label="GitHub contributions stats">
   <title>GitHub contributions stats</title>
   <style>
     .border { fill: #0d1117; stroke: #e4e2e2; stroke-width: 2; }
