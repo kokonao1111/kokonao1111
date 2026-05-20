@@ -81,7 +81,7 @@
 ## GitHub
 
 <div align="center">
-  <img src="./assets/github-stats.svg?v=202605210708" alt="GitHub contributions stats" />
+  <img src="./assets/github-stats.svg?v=202605210845" alt="GitHub contributions stats" />
 </div>
 
 <div align="center">
