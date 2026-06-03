@@ -13,19 +13,19 @@
   <line class="divider" x1="660" y1="55" x2="660" y2="310" />
 
   <g text-anchor="middle">
-    <text class="number" x="165" y="128">354</text>
+    <text class="number" x="165" y="128">355</text>
     <text class="label" x="165" y="200">総コントリビューション数</text>
     <text class="range" x="165" y="262">2026.1.1 - 今</text>
     <text class="small" x="165" y="306">30分ごとに自動更新</text>
 
     <circle cx="495" cy="143" r="80" fill="none" stroke="#006aff" stroke-width="10" />
-    <text class="number" x="495" y="165">25</text>
+    <text class="number" x="495" y="165">26</text>
     <text class="label" x="495" y="258">現在のストリーク</text>
-    <text class="range" x="495" y="310">5.9 - 6.2</text>
+    <text class="range" x="495" y="310">5.9 - 6.3</text>
 
-    <text class="number" x="825" y="128">25</text>
+    <text class="number" x="825" y="128">26</text>
     <text class="label" x="825" y="200">最長のストリーク</text>
-    <text class="range" x="825" y="262">5.9 - 6.2</text>
-    <text class="small" x="825" y="306">Updated 2026.6.3 09:23 JST</text>
+    <text class="range" x="825" y="262">5.9 - 6.3</text>
+    <text class="small" x="825" y="306">Updated 2026.6.3 14:23 JST</text>
   </g>
 </svg>
