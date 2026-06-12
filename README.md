@@ -96,7 +96,7 @@
 ## GitHub
 
 <div align="center">
-  <img src="./assets/github-stats.svg?v=202606122258" alt="GitHub contributions stats" />
+  <img src="./assets/github-stats.svg?v=202606130144" alt="GitHub contributions stats" />
 </div>
 
 <div align="center">
