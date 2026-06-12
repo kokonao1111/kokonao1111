@@ -78,6 +78,21 @@
 
 </div>
 
+## 記事 · Qiita
+
+<div align="center">
+
+| | タイトル | 投稿日 |
+|:---:|:---|:---:|
+| <img src="https://cdn.simpleicons.org/qiita/55C500" height="18" /> | [275コミットの54%がバグ修正だった——AIでスマホアプリを生成するサービスを個人開発して踏んだ全地雷](https://qiita.com/naohirokaihatu/items/fe0fea86520cca76635a) | 2026-06-03 |
+| <img src="https://cdn.simpleicons.org/qiita/55C500" height="18" /> | [【初心者でもApp Store審査が一発で通る】AIが"審査員"になってくれるアプリを作ったら、申請が怖くなくなった](https://qiita.com/naohirokaihatu/items/d7157a1e552467514d85) | 2026-06-02 |
+
+<a href="https://qiita.com/naohirokaihatu">
+  <img src="https://img.shields.io/badge/Qiita-@naohirokaihatu-55C500?style=for-the-badge&logo=qiita&logoColor=white&labelColor=0d1117" alt="Qiita profile" />
+</a>
+
+</div>
+
 ## GitHub
 
 <div align="center">
