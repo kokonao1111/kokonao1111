@@ -4,8 +4,6 @@
 
 
 
-
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=header&animation=twinkling" alt="header wave" />
 </div>
@@ -96,7 +94,7 @@
 ## GitHub
 
 <div align="center">
-  <img src="./assets/github-stats.svg?v=202606181059" alt="GitHub contributions stats" />
+  <img src="./assets/github-stats.svg?v=202606121042" alt="GitHub contributions stats" />
 </div>
 
 <div align="center">
