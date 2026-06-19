@@ -191,5 +191,5 @@
 
   **[@kokonao1111](https://github.com/kokonao1111)** · naohiro
 
-  *AIの技術で、未来を明るいものに。*
+  *AIの新しい技術で、未来を明るいものに。*
 </div>
