@@ -177,7 +177,6 @@ function renderSvg({ total, current, currentRange, longest, longestRange }) {
     <text class="number" x="165" y="128">${escapeXml(total)}</text>
     <text class="label" x="165" y="200" textLength="290" lengthAdjust="spacingAndGlyphs">総コントリビューション数</text>
     <text class="range" x="165" y="262">${escapeXml(yearRange)}</text>
-    <text class="small" x="165" y="306">30分ごとに自動更新</text>
 
     <circle cx="495" cy="143" r="80" fill="none" stroke="#006aff" stroke-width="10" />
     <text class="number" x="495" y="165">${escapeXml(current)}</text>
