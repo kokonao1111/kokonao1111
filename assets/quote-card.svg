@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 188" width="780" height="188" role="img" aria-label="The only way to learn a new programming,language is by writing programs in it. — Kernighan &amp; Ritchie / Programs must be written for people to read, and,only incidentally for machines to execute. — Harold Abelson / Any fool can write code that a computer can understand. Good,programmers write code that humans can understand. — Martin Fowler / Simplicity is prerequisite for reliability. — Edsger W. Dijkstra / Talk is cheap. Show me the code. — Linus Torvalds / Make it work, make it right, make it fast. — Kent Beck">
+  <title>Programming quotes with Japanese translation</title>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif; }
+    .en { fill: #e6edf3; font-size: 17px; font-style: italic; font-weight: 500; }
+    .ja { fill: #8b949e; font-size: 14px; }
+    .by { fill: #58a6ff; font-size: 13px; font-weight: 600; }
+    .mark { fill: #1f6feb; font-size: 46px; font-weight: 700; opacity: .55; }
+    .q { animation-duration: 36s; animation-timing-function: linear; animation-iteration-count: infinite; }
+    .q0{animation-name:q0}.q1{animation-name:q1}.q2{animation-name:q2}.q3{animation-name:q3}.q4{animation-name:q4}.q5{animation-name:q5}
+    @keyframes q0{0%{opacity:0}1.667%{opacity:1}15%{opacity:1}16.667%,100%{opacity:0}}
+    @keyframes q1{0%,16.667%{opacity:0}18.333%{opacity:1}31.667%{opacity:1}33.333%,100%{opacity:0}}
+    @keyframes q2{0%,33.333%{opacity:0}35%{opacity:1}48.333%{opacity:1}50%,100%{opacity:0}}
+    @keyframes q3{0%,50%{opacity:0}51.667%{opacity:1}65%{opacity:1}66.667%,100%{opacity:0}}
+    @keyframes q4{0%,66.667%{opacity:0}68.333%{opacity:1}81.667%{opacity:1}83.333%,100%{opacity:0}}
+    @keyframes q5{0%,83.333%{opacity:0}85%{opacity:1}98.333%{opacity:1}100%,100%{opacity:0}}
+  </style>
+  <rect width="780" height="188" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <g class="q q0"><text class="mark" x="34" y="59">“</text><text class="en" x="64" y="51">The only way to learn a new programming</text><text class="en" x="64" y="77">language is by writing programs in it.</text><text class="ja" x="64" y="117">新しいプログラミング言語を学ぶ唯一の方法は、その言語でプログラムを書くことだ。</text><text class="by" x="740" y="158" text-anchor="end">— Kernighan &amp; Ritchie</text></g>
+  <g class="q q1"><text class="mark" x="34" y="59">“</text><text class="en" x="64" y="51">Programs must be written for people to read, and</text><text class="en" x="64" y="77">only incidentally for machines to execute.</text><text class="ja" x="64" y="117">プログラムは人が読むために書かれるべきであり、機械が実行するのはついでにすぎない。</text><text class="by" x="740" y="158" text-anchor="end">— Harold Abelson</text></g>
+  <g class="q q2"><text class="mark" x="34" y="59">“</text><text class="en" x="64" y="51">Any fool can write code that a computer can understand. Good</text><text class="en" x="64" y="77">programmers write code that humans can understand.</text><text class="ja" x="64" y="117">コンピュータが理解できるコードは誰にでも書ける。優れたプログラマは、人間が理解できるコードを書く。</text><text class="by" x="740" y="158" text-anchor="end">— Martin Fowler</text></g>
+  <g class="q q3"><text class="mark" x="34" y="72">“</text><text class="en" x="64" y="64">Simplicity is prerequisite for reliability.</text><text class="ja" x="64" y="104">単純であることは、信頼性の前提条件である。</text><text class="by" x="740" y="145" text-anchor="end">— Edsger W. Dijkstra</text></g>
+  <g class="q q4"><text class="mark" x="34" y="72">“</text><text class="en" x="64" y="64">Talk is cheap. Show me the code.</text><text class="ja" x="64" y="104">口で言うのは簡単だ。コードを見せてくれ。</text><text class="by" x="740" y="145" text-anchor="end">— Linus Torvalds</text></g>
+  <g class="q q5"><text class="mark" x="34" y="72">“</text><text class="en" x="64" y="64">Make it work, make it right, make it fast.</text><text class="ja" x="64" y="104">まず動かす。次に正しくする。それから速くする。</text><text class="by" x="740" y="145" text-anchor="end">— Kent Beck</text></g>
+</svg>

@@ -152,7 +152,7 @@
 ## 名言 · Random quote
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" alt="Random developer quote" />
+  <img src="./assets/quote-card.svg?v=20260725082602" alt="プログラミングの名言（英語と日本語訳）" />
 </div>
 
 <div align="center">
