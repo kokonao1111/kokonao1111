@@ -16,12 +16,13 @@ const GRID_H = ROWS * PITCH - GAP;
 const SHIP_NOSE_Y = GRID_H + 20; // 自機の先端（グリッド座標系）
 const BULLET_Y = SHIP_NOSE_Y - 4; // 弾の初期位置
 const BULLET_H = 11;
-const BULLET_TRAVEL = BULLET_Y + BULLET_H + 1; // 画面上端を抜けきる距離
 
 // --- タイミング（秒） ---------------------------------------------------
-const COLUMN_INTERVAL = 0.2; // 1列進むのにかかる時間
-const BULLET_TIME = 0.4; // 弾が上端に達するまで
-const TAIL = 1.8; // 全滅後、リセットするまでの間
+const LEAD_IN = 0.35; // 登場してから撃ち始めるまで
+const MOVE_INTERVAL = 0.07; // 隣の列へ移動する時間
+const SHOT_INTERVAL = 0.13; // 同じ列で次の弾を撃つまで
+const BULLET_SPEED = 340; // 弾の速度（px/秒）
+const TAIL = 1.6; // 全滅後、リセットするまでの間
 
 const LEVEL_COLORS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"];
 const BG = "#0d1117";
@@ -138,12 +139,46 @@ function renderSvg(grid) {
   const svgW = gridW + PAD_X * 2;
   const svgH = PAD_TOP + SHIP_NOSE_Y + 42;
 
-  const sweep = (columns - 1) * COLUMN_INTERVAL;
-  const total = Number((sweep + BULLET_TIME + TAIL).toFixed(2));
-  const speed = BULLET_TRAVEL / BULLET_TIME;
+  // 1マス＝1発。下のマスから順に撃ち落とすので、まず全ショットの時刻を組み立てる
+  const shots = [];
+  const shipPath = []; // { at, x } 自機の通過点
+  let clock = LEAD_IN;
+
+  grid.forEach((column, c) => {
+    const x = c * PITCH;
+    const shipX = x + CELL / 2;
+
+    if (c > 0) {
+      clock += MOVE_INTERVAL; // 隣の列へ移動
+    }
+    shipPath.push({ at: clock, x: shipX });
+
+    // 下（土曜）から上（日曜）へ。手前のマスから確実に消えていく
+    const targets = [];
+    column.forEach((lv, r) => {
+      if (lv > 0) targets.push(r);
+    });
+    targets.reverse();
+
+    targets.forEach((r, index) => {
+      const fireAt = clock + index * SHOT_INTERVAL;
+      const distance = BULLET_Y - (r * PITCH + CELL / 2);
+      shots.push({ c, r, x, fireAt, distance, travel: distance / BULLET_SPEED });
+    });
+
+    if (targets.length > 0) {
+      clock += targets.length * SHOT_INTERVAL;
+      shipPath.push({ at: clock, x: shipX }); // 撃ち終わるまでその列に留まる
+    }
+  });
+
+  const lastHit = shots.reduce((max, shot) => Math.max(max, shot.fireAt + shot.travel), 0);
+  const clearedAt = Math.max(clock, lastHit);
+  const total = Number((clearedAt + TAIL).toFixed(2));
   const pct = (seconds) => Number(((seconds / total) * 100).toFixed(3));
   const RESET = 99.2; // ここから全マスが復活する
 
+  const hitTimes = new Map(shots.map((shot) => [`${shot.c}_${shot.r}`, shot.fireAt + shot.travel]));
   const cells = [];
   const bullets = [];
   const keyframes = [];
@@ -151,8 +186,6 @@ function renderSvg(grid) {
 
   grid.forEach((column, c) => {
     const x = c * PITCH;
-    const fireAt = c * COLUMN_INTERVAL;
-    let hasTarget = false;
 
     column.forEach((lv, r) => {
       const y = r * PITCH;
@@ -163,9 +196,8 @@ function renderSvg(grid) {
         return;
       }
 
-      hasTarget = true;
       const color = LEVEL_COLORS[lv];
-      const hitAt = fireAt + (BULLET_Y - (y + CELL / 2)) / speed;
+      const hitAt = hitTimes.get(`${c}_${r}`);
       const name = `h${c}_${r}`;
       const p0 = pct(hitAt);
       const p1 = pct(hitAt + 0.06);
@@ -182,35 +214,35 @@ function renderSvg(grid) {
         `<rect class="cell hit ${name}" x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${color}"/>`,
       );
     });
+  });
 
-    if (!hasTarget) {
-      return;
-    }
-
-    const name = `b${c}`;
-    const f0 = pct(fireAt);
-    const f1 = pct(fireAt + 0.02);
-    const f2 = pct(fireAt + BULLET_TIME - 0.02);
-    const f3 = pct(fireAt + BULLET_TIME);
+  // 弾は狙ったマスまでしか飛ばず、当たった瞬間に消える
+  shots.forEach((shot) => {
+    const name = `b${shot.c}_${shot.r}`;
+    const f0 = pct(shot.fireAt);
+    const f1 = pct(shot.fireAt + 0.015);
+    const f2 = pct(shot.fireAt + shot.travel - 0.015);
+    const f3 = pct(shot.fireAt + shot.travel);
 
     keyframes.push(
       `@keyframes ${name}{0%,${f0}%{opacity:0;transform:translateY(0)}` +
         `${f1}%{opacity:1}${f2}%{opacity:1}` +
-        `${f3}%,100%{opacity:0;transform:translateY(-${BULLET_TRAVEL}px)}}`,
+        `${f3}%,100%{opacity:0;transform:translateY(-${Number(shot.distance.toFixed(2))}px)}}`,
     );
     names.push(`.${name}{animation-name:${name}}`);
     bullets.push(
-      `<rect class="bullet ${name}" x="${x + CELL / 2 - 1.5}" y="${BULLET_Y}" width="3" height="${BULLET_H}" rx="1.5"/>`,
+      `<rect class="bullet ${name}" x="${shot.x + CELL / 2 - 1.5}" y="${BULLET_Y}" width="3" height="${BULLET_H}" rx="1.5"/>`,
     );
   });
 
-  const shipStart = CELL / 2;
-  const shipEnd = (columns - 1) * PITCH + CELL / 2;
+  const shipStops = shipPath
+    .map((point) => `${pct(point.at)}%{transform:translateX(${point.x}px)}`)
+    .join("");
   keyframes.push(
-    `@keyframes fly{0%{transform:translateX(${shipStart}px);opacity:0}` +
-      `${pct(0.3)}%{opacity:1}` +
-      `${pct(sweep)}%{transform:translateX(${shipEnd}px);opacity:1}` +
-      `${pct(sweep + 0.9)}%,100%{transform:translateX(${shipEnd + 80}px);opacity:0}}`,
+    `@keyframes fly{0%{transform:translateX(${shipPath[0].x}px);opacity:0}` +
+      `${pct(LEAD_IN * 0.7)}%{opacity:1}` +
+      `${shipStops}` +
+      `${pct(clearedAt + 0.9)}%,100%{transform:translateX(${shipPath.at(-1).x + 90}px);opacity:0}}`,
   );
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${svgW} ${svgH}" width="${svgW}" height="${svgH}" role="img" aria-label="GitHub contribution shooting game">
@@ -250,16 +282,17 @@ function renderSvg(grid) {
 
 async function updateReadmeCacheKey(cacheKey) {
   const readme = await readFile(README_FILE, "utf8");
-  const nextReadme = readme.replace(
-    /src="\.?\/?assets\/contribution-shooter\.svg(?:\?v=[^"]*)?"/,
-    `src="./assets/contribution-shooter.svg?v=${cacheKey}"`,
-  );
+  const pattern = /src="\.?\/?assets\/contribution-shooter\.svg(?:\?v=[^"]*)?"/;
 
-  if (nextReadme === readme) {
+  // 同じ分に2回動くとキャッシュキーが変わらないので、有無は正規表現で判定する
+  if (!pattern.test(readme)) {
     throw new Error("Could not find contribution-shooter.svg image in README.md");
   }
 
-  await writeFile(README_FILE, nextReadme);
+  await writeFile(
+    README_FILE,
+    readme.replace(pattern, `src="./assets/contribution-shooter.svg?v=${cacheKey}"`),
+  );
 }
 
 const { year, month, day, hour, minute } = tokyoParts();

@@ -85,16 +85,18 @@ function streakStats(days) {
 
 async function updateReadmeCacheKey() {
   const readme = await readFile(README_FILE, "utf8");
-  const nextReadme = readme.replace(
-    /src="(?:https:\/\/raw\.githubusercontent\.com\/kokonao1111\/kokonao1111\/main\/)?\.?\/?assets\/github-stats\.svg(?:\?v=[^"]*)?"/,
-    `src="./assets/github-stats.svg?v=${cacheKey}"`,
-  );
+  const pattern =
+    /src="(?:https:\/\/raw\.githubusercontent\.com\/kokonao1111\/kokonao1111\/main\/)?\.?\/?assets\/github-stats\.svg(?:\?v=[^"]*)?"/;
 
-  if (nextReadme === readme) {
+  // 同じ分に2回動くとキャッシュキーが変わらないので、有無は正規表現で判定する
+  if (!pattern.test(readme)) {
     throw new Error("Could not find github-stats.svg image in README.md");
   }
 
-  await writeFile(README_FILE, nextReadme);
+  await writeFile(
+    README_FILE,
+    readme.replace(pattern, `src="./assets/github-stats.svg?v=${cacheKey}"`),
+  );
 }
 
 async function fetchContributionDays() {

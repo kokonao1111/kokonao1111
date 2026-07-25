@@ -1,0 +1,80 @@
+{
+  "columns": [
+    {
+      "date": "2026-07-12",
+      "level": 4,
+      "blocks": 4
+    },
+    {
+      "date": "2026-07-13",
+      "level": 3,
+      "blocks": 3
+    },
+    {
+      "date": "2026-07-14",
+      "level": 4,
+      "blocks": 4
+    },
+    {
+      "date": "2026-07-15",
+      "level": 4,
+      "blocks": 4
+    },
+    {
+      "date": "2026-07-16",
+      "level": 4,
+      "blocks": 4
+    },
+    {
+      "date": "2026-07-17",
+      "level": 4,
+      "blocks": 4
+    },
+    {
+      "date": "2026-07-18",
+      "level": 4,
+      "blocks": 4
+    },
+    {
+      "date": "2026-07-19",
+      "level": 4,
+      "blocks": 4
+    },
+    {
+      "date": "2026-07-20",
+      "level": 3,
+      "blocks": 3
+    },
+    {
+      "date": "2026-07-21",
+      "level": 3,
+      "blocks": 3
+    },
+    {
+      "date": "2026-07-22",
+      "level": 3,
+      "blocks": 3
+    },
+    {
+      "date": "2026-07-23",
+      "level": 3,
+      "blocks": 3
+    },
+    {
+      "date": "2026-07-24",
+      "level": 3,
+      "blocks": 3
+    },
+    {
+      "date": "2026-07-25",
+      "level": 3,
+      "blocks": 3
+    }
+  ],
+  "ship": 7,
+  "shots": 0,
+  "total": 49,
+  "lastPlayer": "kokonao1111",
+  "lastAction": "reset",
+  "builtFor": "2026-07-25"
+}
