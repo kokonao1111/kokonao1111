@@ -27,8 +27,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-github-stats.mjs
 
+      - name: Generate contribution shooter SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-contribution-shooter.mjs
+
       - name: Commit updated stats
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update GitHub stats
-          file_pattern: README.md assets/github-stats.svg
+          file_pattern: README.md assets/github-stats.svg assets/contribution-shooter.svg

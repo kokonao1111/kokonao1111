@@ -117,14 +117,10 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kokonao1111&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true" alt="Activity graph" />
 </div>
 
-### Contribution snake
+### Contribution shooter
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kokonao1111/kokonao1111/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kokonao1111/kokonao1111/output/github-snake.svg" />
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/kokonao1111/kokonao1111/output/github-snake.svg" />
-  </picture>
+  <img src="./assets/contribution-shooter.svg?v=202607251639" alt="GitHub contribution shooting game animation" />
 </div>
 
 ## Tech stack
