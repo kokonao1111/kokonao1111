@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 304" width="720" height="304" role="img" aria-label="naohiro — HAL東京 高度情報学科。Web・スクリプト・体験設計を中心に、Swift や Python も使い分けています。">
+  <title>About naohiro</title>
+  <style>
+    text { font-family: "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; }
+    .prompt { fill: #7ee787; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #8b949e; }
+    .cover { fill: #0d1117; }
+    .caret { fill: #ffd166; animation: blink .9s steps(2, end) infinite; }
+    .title { fill: #6e7681; font-size: 12px; }
+    @keyframes blink { 0% { fill-opacity: 1 } 100% { fill-opacity: 0 } }
+    .a0{animation:a0 9.65s linear infinite}.a1{animation:a1 9.65s linear infinite}.a2{animation:a2 9.65s linear infinite}.a3{animation:a3 9.65s linear infinite}.a4{animation:a4 9.65s linear infinite}.a5{animation:a5 9.65s linear infinite}.a6{animation:a6 9.65s linear infinite}.a7{animation:a7 9.65s linear infinite}
+    .c0{animation:c0 9.65s linear infinite}.k0{animation:k0 9.65s linear infinite,blink .9s steps(2,end) infinite}.c2{animation:c2 9.65s linear infinite}.k2{animation:k2 9.65s linear infinite,blink .9s steps(2,end) infinite}.c4{animation:c4 9.65s linear infinite}.k4{animation:k4 9.65s linear infinite,blink .9s steps(2,end) infinite}.c6{animation:c6 9.65s linear infinite}.k6{animation:k6 9.65s linear infinite,blink .9s steps(2,end) infinite}
+    @keyframes a0{0%,4.143999999999999%{opacity:0}4.145%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+    @keyframes c0{0%,4.145%{transform:translateX(0)}7.772%,100%{transform:translateX(55px)}}
+    @keyframes k0{0%,4.143999999999999%{opacity:0;transform:translateX(0)}4.145%{opacity:1;transform:translateX(0)}7.772%{opacity:1;transform:translateX(51px)}11.399%{opacity:1}11.399999999999999%,100%{opacity:0}}
+    @keyframes a1{0%,11.398%{opacity:0}11.399%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+    @keyframes a2{0%,16.578999999999997%{opacity:0}16.58%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+    @keyframes c2{0%,16.58%{transform:translateX(0)}24.87%,100%{transform:translateX(139px)}}
+    @keyframes k2{0%,16.578999999999997%{opacity:0;transform:translateX(0)}16.58%{opacity:1;transform:translateX(0)}24.87%{opacity:1;transform:translateX(135px)}28.497%{opacity:1}28.498%,100%{opacity:0}}
+    @keyframes a3{0%,28.496%{opacity:0}28.497%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+    @keyframes a4{0%,33.678000000000004%{opacity:0}33.679%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+    @keyframes c4{0%,33.679%{transform:translateX(0)}38.86%,100%{transform:translateX(88px)}}
+    @keyframes k4{0%,33.678000000000004%{opacity:0;transform:translateX(0)}33.679%{opacity:1;transform:translateX(0)}38.86%{opacity:1;transform:translateX(84px)}42.487%{opacity:1}42.488%,100%{opacity:0}}
+    @keyframes a5{0%,42.486000000000004%{opacity:0}42.487%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+    @keyframes a6{0%,47.667%{opacity:0}47.668%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+    @keyframes c6{0%,47.668%{transform:translateX(0)}51.813%,100%{transform:translateX(72px)}}
+    @keyframes k6{0%,47.667%{opacity:0;transform:translateX(0)}47.668%{opacity:1;transform:translateX(0)}51.813%{opacity:1;transform:translateX(68px)}55.44%{opacity:1}55.440999999999995%,100%{opacity:0}}
+    @keyframes a7{0%,55.439%{opacity:0}55.44%,95.855%{opacity:1}98.342%,100%{opacity:0}}
+  </style>
+  <rect width="720" height="304" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0 12a12 12 0 0 1 12-12h696a12 12 0 0 1 12 12v24H0Z" fill="#161b22"/>
+  <line x1="0" y1="36" x2="720" y2="36" stroke="#30363d"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <text class="title" x="360" y="22" text-anchor="middle">about — naohiro</text>
+  <g class="a0"><text class="prompt" x="24" y="64">naohiro@hal-tokyo ~ %</text><text class="cmd" x="208.8" y="64">whoami</text><rect class="cover c0" x="206.8" y="50" width="59" height="22"/></g>
+  <rect class="caret k0" x="208.8" y="50" width="8.4" height="18"/>
+  <text class="out a1" x="24" y="90">naohiro — HAL東京 · 高度情報学科</text>
+  <g class="a2"><text class="prompt" x="24" y="128">naohiro@hal-tokyo ~ %</text><text class="cmd" x="208.8" y="128">cat profile.json</text><rect class="cover c2" x="206.8" y="114" width="143" height="22"/></g>
+  <rect class="caret k2" x="208.8" y="114" width="8.4" height="18"/>
+  <text class="out a3" x="24" y="154">{ &quot;location&quot;: &quot;Japan&quot;, &quot;focus&quot;: [&quot;Web&quot;, &quot;スクリプト&quot;, &quot;体験設計&quot;] }</text>
+  <g class="a4"><text class="prompt" x="24" y="192">naohiro@hal-tokyo ~ %</text><text class="cmd" x="208.8" y="192">ls ~/stack</text><rect class="cover c4" x="206.8" y="178" width="92" height="22"/></g>
+  <rect class="caret k4" x="208.8" y="178" width="8.4" height="18"/>
+  <text class="out a5" x="24" y="218">html  css  js  swift  python  flutter  dart</text>
+  <g class="a6"><text class="prompt" x="24" y="256">naohiro@hal-tokyo ~ %</text><text class="cmd" x="208.8" y="256">./why.sh</text><rect class="cover c6" x="206.8" y="242" width="76" height="22"/></g>
+  <rect class="caret k6" x="208.8" y="242" width="8.4" height="18"/>
+  <text class="out a7" x="24" y="282">UI の気持ちよさと、ちゃんと動く実装の両方を大事にしています。</text>
+</svg>

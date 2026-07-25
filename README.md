@@ -16,29 +16,7 @@
 ## About
 
 <div align="center">
-
-<table>
-<tr>
-<td width="200" align="center">
-<img src="https://skillicons.dev/icons?i=html,css,javascript" width="120" alt="HTML, CSS, JavaScript" />
-<br><strong>Web · Front</strong>
-</td>
-<td width="420" align="left">
-
-### naohiro
-
-**HAL東京** 高度情報学科。Web や課題・コンテスト制作を中心に、**Swift** や **Python** も使い分けています。必要に応じて **Flutter** も触ります。UI の気持ちよさと、ちゃんと動く実装の両方を大事にしています。
-
-| | |
-|:---|:---|
-| **School** | HAL東京 · 高度情報学科 |
-| **Location** | Japan |
-| **Focus** | Web · スクリプト · 体験設計 |
-
-</td>
-</tr>
-</table>
-
+  <img src="./assets/about-terminal.svg?v=20260725081834" alt="naohiro — HAL東京 高度情報学科。Web・スクリプト・体験設計を中心に、Swift や Python も使い分けています。" />
 </div>
 
 ## Connect
@@ -121,22 +99,6 @@
 
 <div align="center">
   <img src="./assets/contribution-shooter.svg?v=202607251708" alt="GitHub contribution shooting game animation" />
-</div>
-
-### 遊べるシューター · Playable
-
-<div align="center">
-
-<img src="./assets/shooter-board.svg?v=20260725170328" alt="Playable contribution shooter board" />
-
-<a href="https://github.com/kokonao1111/kokonao1111/issues/new?title=shooter%3A%20left&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20new%20issue%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/◀_LEFT-30363d?style=for-the-badge&labelColor=0d1117" alt="左へ" /></a>
-<a href="https://github.com/kokonao1111/kokonao1111/issues/new?title=shooter%3A%20fire&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20new%20issue%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/FIRE-e3b341?style=for-the-badge&labelColor=0d1117" alt="撃つ" /></a>
-<a href="https://github.com/kokonao1111/kokonao1111/issues/new?title=shooter%3A%20right&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20new%20issue%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/RIGHT_▶-30363d?style=for-the-badge&labelColor=0d1117" alt="右へ" /></a>
-&nbsp;
-<a href="https://github.com/kokonao1111/kokonao1111/issues/new?title=shooter%3A%20reset&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20new%20issue%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/RESET-21262d?style=for-the-badge&labelColor=0d1117" alt="リセット" /></a>
-
-<sub>ボタンを押すと Issue 作成画面が開きます。そのまま送信すると 20〜40 秒で上の盤面が動きます（誰でも参加できます）。<br>敵は直近14日のコントリビューションです。多い日ほどブロックが高く積まれます。</sub>
-
 </div>
 
 ## Tech stack
