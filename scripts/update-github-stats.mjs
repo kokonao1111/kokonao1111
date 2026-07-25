@@ -165,7 +165,7 @@ function renderSvg({ total, current, currentRange, longest, longestRange }) {
     .border { fill: #0d1117; stroke: #e4e2e2; stroke-width: 2; }
     .divider { stroke: #e4e2e2; stroke-width: 2; }
     .number { fill: #006aff; font: 700 58px "Segoe UI", Ubuntu, sans-serif; }
-    .label { fill: #0587d8; font: 700 28px "Segoe UI", Ubuntu, sans-serif; }
+    .label { fill: #0587d8; font: 700 24px "Segoe UI", Ubuntu, sans-serif; }
     .range { fill: #4b9aa4; font: 600 23px "Segoe UI", Ubuntu, sans-serif; }
     .small { fill: #4b9aa4; font: 500 16px "Segoe UI", Ubuntu, sans-serif; }
   </style>
@@ -175,7 +175,7 @@ function renderSvg({ total, current, currentRange, longest, longestRange }) {
 
   <g text-anchor="middle">
     <text class="number" x="165" y="128">${escapeXml(total)}</text>
-    <text class="label" x="165" y="200">総コントリビューション数</text>
+    <text class="label" x="165" y="200" textLength="290" lengthAdjust="spacingAndGlyphs">総コントリビューション数</text>
     <text class="range" x="165" y="262">${escapeXml(yearRange)}</text>
     <text class="small" x="165" y="306">30分ごとに自動更新</text>
 
