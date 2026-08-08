@@ -116,7 +116,7 @@
     @keyframes h52_3{0%,88.856%{opacity:1;fill:#006d32;transform:scale(1)}89.171%{opacity:1;fill:#ffffff;transform:scale(1.4)}90.221%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
     @keyframes h52_4{0%,87.942%{opacity:1;fill:#0e4429;transform:scale(1)}88.257%{opacity:1;fill:#ffffff;transform:scale(1.4)}89.307%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
     @keyframes h52_5{0%,87.028%{opacity:1;fill:#006d32;transform:scale(1)}87.343%{opacity:1;fill:#ffffff;transform:scale(1.4)}88.393%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h52_6{0%,86.114%{opacity:1;fill:#0e4429;transform:scale(1)}86.429%{opacity:1;fill:#ffffff;transform:scale(1.4)}87.479%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h52_6{0%,86.114%{opacity:1;fill:#006d32;transform:scale(1)}86.429%{opacity:1;fill:#ffffff;transform:scale(1.4)}87.479%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
     @keyframes b9_4{0%,5.144%{opacity:0;transform:translateY(0)}5.223%{opacity:1}5.868%{opacity:1}5.947%,100%{opacity:0;transform:translateY(-52px)}}
     @keyframes b28_6{0%,12.808%{opacity:0;transform:translateY(0)}12.887%{opacity:1}13.069%{opacity:1}13.148%,100%{opacity:0;transform:translateY(-22px)}}
     @keyframes b28_5{0%,13.491%{opacity:0;transform:translateY(0)}13.57%{opacity:1}13.983%{opacity:1}14.062%,100%{opacity:0;transform:translateY(-37px)}}
@@ -594,7 +594,7 @@
     <rect class="cell hit h52_3" x="780" y="45" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h52_4" x="780" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h52_5" x="780" y="75" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h52_6" x="780" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h52_6" x="780" y="90" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="bullet b9_4" x="139.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b28_6" x="424.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b28_5" x="424.5" y="118" width="3" height="11" rx="1.5"/>
