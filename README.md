@@ -71,7 +71,7 @@
 ## GitHub
 
 <div align="center">
-  <img src="./assets/github-stats.svg?v=202608180324" alt="GitHub contributions stats" />
+  <img src="./assets/github-stats.svg?v=202608180405" alt="GitHub contributions stats" />
 </div>
 
 <div align="center">
@@ -98,7 +98,7 @@
 ### Contribution shooter
 
 <div align="center">
-  <img src="./assets/contribution-shooter.svg?v=202608180324" alt="GitHub contribution shooting game animation" />
+  <img src="./assets/contribution-shooter.svg?v=202608180405" alt="GitHub contribution shooting game animation" />
 </div>
 
 ## Tech stack
