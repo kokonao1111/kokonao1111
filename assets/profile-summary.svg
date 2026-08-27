@@ -12,11 +12,11 @@
   <text class="title" x="30" y="66">PROFILE</text>
   <line x1="30" y1="90" x2="670" y2="90" stroke="#e4e2e2" stroke-width="1" opacity=".35"/>
   <text class="label" x="34" y="114">Total stars</text><text class="value" x="34" y="140">0</text>
-  <text class="label" x="364" y="114">Commits (1年)</text><text class="value" x="364" y="140">1278</text>
+  <text class="label" x="364" y="114">Commits (1年)</text><text class="value" x="364" y="140">1976</text>
   <text class="label" x="34" y="190">Pull requests</text><text class="value" x="34" y="216">6</text>
   <text class="label" x="364" y="190">Reviews</text><text class="value" x="364" y="216">3</text>
   <text class="label" x="34" y="266">Contributed to</text><text class="value" x="34" y="292">17</text>
-  <text class="label" x="364" y="266">Public repos</text><text class="value" x="364" y="292">21</text>
+  <text class="label" x="364" y="266">Public repos</text><text class="value" x="364" y="292">17</text>
   <text class="label" x="34" y="342">Followers</text><text class="value" x="34" y="368">10</text>
   <text class="label" x="364" y="342">Since</text><text class="value" x="364" y="368">2025.10.9</text>
 </svg>
