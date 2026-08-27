@@ -79,12 +79,12 @@
   <tr>
   <td align="center" valign="top">
     <a href="https://github.com/kokonao1111">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kokonao1111&theme=dracula" alt="GitHub profile summary" />
+      <img src="./assets/profile-summary.svg?v=202608051612" alt="GitHub プロフィール概要" />
     </a>
   </td>
   <td align="center" valign="top">
     <a href="https://github.com/kokonao1111?tab=repositories">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kokonao1111&theme=dracula" alt="Top Languages by Repo" />
+      <img src="./assets/top-languages.svg?v=202608051612" alt="使用言語の内訳" />
     </a>
   </td>
   </tr>
@@ -92,7 +92,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kokonao1111&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area=true&hide_border=true" alt="Activity graph" />
+  <img src="./assets/activity-graph.svg?v=202608271042" alt="Activity graph" />
 </div>
 
 ### Contribution shooter
@@ -160,7 +160,7 @@
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14f0247f.gif" width="1000" alt="divider" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="divider" />
 
   **[@kokonao1111](https://github.com/kokonao1111)** · naohiro
 

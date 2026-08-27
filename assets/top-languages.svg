@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="350" height="220" role="img" aria-label="使用言語の内訳: TypeScript 32.6%, CSS 22.2%, HTML 18.4%, Swift 15.0%, JavaScript 10.7%, Other 1.1%">
+  <title>Top languages</title>
+  <style>
+    .frame { fill: #0d1117; stroke: #e4e2e2; stroke-width: 2; }
+    text { font-family: "Segoe UI", Ubuntu, sans-serif; }
+    .title { fill: #006aff; font-size: 23px; font-weight: 700; letter-spacing: 1.5px; }
+    .label { fill: #7d8590; font-size: 19px; font-weight: 600; }
+    .value { fill: #e6edf3; font-size: 30px; font-weight: 700; }
+    .pct { fill: #7d8590; font-size: 19px; font-weight: 600; }
+    .lang { fill: #e6edf3; font-size: 20px; font-weight: 600; }</style>
+  <defs><clipPath id="bar"><rect x="30" y="112" width="640" height="26" rx="13"/></clipPath></defs>
+  <rect class="frame" x="1" y="1" width="698" height="438" rx="20"/>
+  <text class="title" x="30" y="66">TOP LANGUAGES</text>
+  <g clip-path="url(#bar)"><rect x="30.00" y="112" width="208.89" height="26" fill="#3178c6"/><rect x="238.89" y="112" width="141.80" height="26" fill="#663399"/><rect x="380.69" y="112" width="117.94" height="26" fill="#e34c26"/><rect x="498.63" y="112" width="95.89" height="26" fill="#F05138"/><rect x="594.52" y="112" width="68.63" height="26" fill="#f1e05a"/><rect x="663.15" y="112" width="6.85" height="26" fill="#6e7681"/></g>
+  <circle cx="41" cy="222" r="9" fill="#3178c6"/><text class="lang" x="62" y="229">TypeScript</text><text class="pct" x="332" y="229" text-anchor="end">32.6%</text>
+  <circle cx="369" cy="222" r="9" fill="#663399"/><text class="lang" x="390" y="229">CSS</text><text class="pct" x="660" y="229" text-anchor="end">22.2%</text>
+  <circle cx="41" cy="284" r="9" fill="#e34c26"/><text class="lang" x="62" y="291">HTML</text><text class="pct" x="332" y="291" text-anchor="end">18.4%</text>
+  <circle cx="369" cy="284" r="9" fill="#F05138"/><text class="lang" x="390" y="291">Swift</text><text class="pct" x="660" y="291" text-anchor="end">15.0%</text>
+  <circle cx="41" cy="346" r="9" fill="#f1e05a"/><text class="lang" x="62" y="353">JavaScript</text><text class="pct" x="332" y="353" text-anchor="end">10.7%</text>
+  <circle cx="369" cy="346" r="9" fill="#6e7681"/><text class="lang" x="390" y="353">Other</text><text class="pct" x="660" y="353" text-anchor="end">1.1%</text>
+</svg>
