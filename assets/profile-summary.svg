@@ -12,7 +12,7 @@
   <text class="title" x="30" y="66">PROFILE</text>
   <line x1="30" y1="90" x2="670" y2="90" stroke="#e4e2e2" stroke-width="1" opacity=".35"/>
   <text class="label" x="34" y="114">Total stars</text><text class="value" x="34" y="140">0</text>
-  <text class="label" x="364" y="114">Commits (1年)</text><text class="value" x="364" y="140">2000</text>
+  <text class="label" x="364" y="114">Commits (1年)</text><text class="value" x="364" y="140">2001</text>
   <text class="label" x="34" y="190">Pull requests</text><text class="value" x="34" y="216">6</text>
   <text class="label" x="364" y="190">Reviews</text><text class="value" x="364" y="216">3</text>
   <text class="label" x="34" y="266">Contributed to</text><text class="value" x="34" y="292">17</text>
