@@ -3,280 +3,280 @@
   <style>
     .cell { transform-box: fill-box; transform-origin: 50% 50%; }
     .hit, .bullet {
-      animation-duration: 22.69s;
+      animation-duration: 22.62s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
     }
     .bullet { fill: #ffd166; }
     .ship {
-      animation: fly 22.69s linear infinite;
+      animation: fly 22.62s linear infinite;
     }
     .hull { fill: #58a6ff; }
     .cockpit { fill: #0d1117; }
     .flame { fill: #ff7b52; animation: burn .28s steps(2, end) infinite; }
     @keyframes burn { 0% { opacity: 1 } 100% { opacity: .35 } }
-    @keyframes h5_4{0%,3.759%{opacity:1;fill:#0e4429;transform:scale(1)}4.024%{opacity:1;fill:#ffffff;transform:scale(1.4)}4.905%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h24_5{0%,10.572%{opacity:1;fill:#0e4429;transform:scale(1)}10.837%{opacity:1;fill:#ffffff;transform:scale(1.4)}11.718%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h24_6{0%,9.805%{opacity:1;fill:#0e4429;transform:scale(1)}10.069%{opacity:1;fill:#ffffff;transform:scale(1.4)}10.951%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h26_1{0%,12.54%{opacity:1;fill:#0e4429;transform:scale(1)}12.804%{opacity:1;fill:#ffffff;transform:scale(1.4)}13.686%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h32_1{0%,16.11%{opacity:1;fill:#0e4429;transform:scale(1)}16.374%{opacity:1;fill:#ffffff;transform:scale(1.4)}17.256%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h32_2{0%,15.342%{opacity:1;fill:#39d353;transform:scale(1)}15.607%{opacity:1;fill:#ffffff;transform:scale(1.4)}16.488%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
-    @keyframes h32_3{0%,14.575%{opacity:1;fill:#0e4429;transform:scale(1)}14.839%{opacity:1;fill:#ffffff;transform:scale(1.4)}15.721%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h33_0{0%,18.331%{opacity:1;fill:#0e4429;transform:scale(1)}18.596%{opacity:1;fill:#ffffff;transform:scale(1.4)}19.477%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h33_2{0%,17.37%{opacity:1;fill:#0e4429;transform:scale(1)}17.634%{opacity:1;fill:#ffffff;transform:scale(1.4)}18.516%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h33_4{0%,16.408%{opacity:1;fill:#0e4429;transform:scale(1)}16.672%{opacity:1;fill:#ffffff;transform:scale(1.4)}17.554%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h35_6{0%,18.355%{opacity:1;fill:#0e4429;transform:scale(1)}18.619%{opacity:1;fill:#ffffff;transform:scale(1.4)}19.501%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h36_0{0%,23.841%{opacity:1;fill:#0e4429;transform:scale(1)}24.105%{opacity:1;fill:#ffffff;transform:scale(1.4)}24.986%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h36_1{0%,23.073%{opacity:1;fill:#0e4429;transform:scale(1)}23.338%{opacity:1;fill:#ffffff;transform:scale(1.4)}24.219%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h36_2{0%,22.306%{opacity:1;fill:#0e4429;transform:scale(1)}22.57%{opacity:1;fill:#ffffff;transform:scale(1.4)}23.452%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h36_3{0%,21.538%{opacity:1;fill:#0e4429;transform:scale(1)}21.803%{opacity:1;fill:#ffffff;transform:scale(1.4)}22.684%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h36_4{0%,20.771%{opacity:1;fill:#0e4429;transform:scale(1)}21.035%{opacity:1;fill:#ffffff;transform:scale(1.4)}21.917%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h36_5{0%,20.004%{opacity:1;fill:#0e4429;transform:scale(1)}20.268%{opacity:1;fill:#ffffff;transform:scale(1.4)}21.15%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h36_6{0%,19.236%{opacity:1;fill:#006d32;transform:scale(1)}19.501%{opacity:1;fill:#ffffff;transform:scale(1.4)}20.382%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h37_0{0%,28.16%{opacity:1;fill:#0e4429;transform:scale(1)}28.424%{opacity:1;fill:#ffffff;transform:scale(1.4)}29.305%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h37_1{0%,27.392%{opacity:1;fill:#006d32;transform:scale(1)}27.657%{opacity:1;fill:#ffffff;transform:scale(1.4)}28.538%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h37_2{0%,26.625%{opacity:1;fill:#0e4429;transform:scale(1)}26.889%{opacity:1;fill:#ffffff;transform:scale(1.4)}27.771%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h37_3{0%,25.857%{opacity:1;fill:#0e4429;transform:scale(1)}26.122%{opacity:1;fill:#ffffff;transform:scale(1.4)}27.003%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h37_4{0%,25.09%{opacity:1;fill:#0e4429;transform:scale(1)}25.355%{opacity:1;fill:#ffffff;transform:scale(1.4)}26.236%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h37_5{0%,24.323%{opacity:1;fill:#0e4429;transform:scale(1)}24.587%{opacity:1;fill:#ffffff;transform:scale(1.4)}25.469%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h37_6{0%,23.555%{opacity:1;fill:#0e4429;transform:scale(1)}23.82%{opacity:1;fill:#ffffff;transform:scale(1.4)}24.701%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h38_0{0%,32.479%{opacity:1;fill:#0e4429;transform:scale(1)}32.743%{opacity:1;fill:#ffffff;transform:scale(1.4)}33.625%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h38_1{0%,31.711%{opacity:1;fill:#0e4429;transform:scale(1)}31.976%{opacity:1;fill:#ffffff;transform:scale(1.4)}32.857%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h38_2{0%,30.944%{opacity:1;fill:#0e4429;transform:scale(1)}31.208%{opacity:1;fill:#ffffff;transform:scale(1.4)}32.09%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h38_3{0%,30.177%{opacity:1;fill:#0e4429;transform:scale(1)}30.441%{opacity:1;fill:#ffffff;transform:scale(1.4)}31.322%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h38_4{0%,29.409%{opacity:1;fill:#0e4429;transform:scale(1)}29.674%{opacity:1;fill:#ffffff;transform:scale(1.4)}30.555%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h38_5{0%,28.642%{opacity:1;fill:#0e4429;transform:scale(1)}28.906%{opacity:1;fill:#ffffff;transform:scale(1.4)}29.788%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h38_6{0%,27.874%{opacity:1;fill:#0e4429;transform:scale(1)}28.139%{opacity:1;fill:#ffffff;transform:scale(1.4)}29.02%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h39_0{0%,36.798%{opacity:1;fill:#0e4429;transform:scale(1)}37.062%{opacity:1;fill:#ffffff;transform:scale(1.4)}37.944%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h39_1{0%,36.03%{opacity:1;fill:#0e4429;transform:scale(1)}36.295%{opacity:1;fill:#ffffff;transform:scale(1.4)}37.176%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h39_2{0%,35.263%{opacity:1;fill:#0e4429;transform:scale(1)}35.527%{opacity:1;fill:#ffffff;transform:scale(1.4)}36.409%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h39_3{0%,34.496%{opacity:1;fill:#0e4429;transform:scale(1)}34.76%{opacity:1;fill:#ffffff;transform:scale(1.4)}35.642%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h39_4{0%,33.728%{opacity:1;fill:#0e4429;transform:scale(1)}33.993%{opacity:1;fill:#ffffff;transform:scale(1.4)}34.874%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h39_5{0%,32.961%{opacity:1;fill:#0e4429;transform:scale(1)}33.225%{opacity:1;fill:#ffffff;transform:scale(1.4)}34.107%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h39_6{0%,32.194%{opacity:1;fill:#0e4429;transform:scale(1)}32.458%{opacity:1;fill:#ffffff;transform:scale(1.4)}33.339%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h40_0{0%,41.117%{opacity:1;fill:#0e4429;transform:scale(1)}41.381%{opacity:1;fill:#ffffff;transform:scale(1.4)}42.263%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h40_1{0%,40.349%{opacity:1;fill:#0e4429;transform:scale(1)}40.614%{opacity:1;fill:#ffffff;transform:scale(1.4)}41.495%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h40_2{0%,39.582%{opacity:1;fill:#0e4429;transform:scale(1)}39.847%{opacity:1;fill:#ffffff;transform:scale(1.4)}40.728%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h40_3{0%,38.815%{opacity:1;fill:#0e4429;transform:scale(1)}39.079%{opacity:1;fill:#ffffff;transform:scale(1.4)}39.961%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h40_4{0%,38.047%{opacity:1;fill:#0e4429;transform:scale(1)}38.312%{opacity:1;fill:#ffffff;transform:scale(1.4)}39.193%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h40_5{0%,37.28%{opacity:1;fill:#0e4429;transform:scale(1)}37.544%{opacity:1;fill:#ffffff;transform:scale(1.4)}38.426%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h40_6{0%,36.513%{opacity:1;fill:#0e4429;transform:scale(1)}36.777%{opacity:1;fill:#ffffff;transform:scale(1.4)}37.658%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h41_0{0%,45.436%{opacity:1;fill:#0e4429;transform:scale(1)}45.7%{opacity:1;fill:#ffffff;transform:scale(1.4)}46.582%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h41_1{0%,44.669%{opacity:1;fill:#006d32;transform:scale(1)}44.933%{opacity:1;fill:#ffffff;transform:scale(1.4)}45.814%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h41_2{0%,43.901%{opacity:1;fill:#0e4429;transform:scale(1)}44.166%{opacity:1;fill:#ffffff;transform:scale(1.4)}45.047%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h41_3{0%,43.134%{opacity:1;fill:#0e4429;transform:scale(1)}43.398%{opacity:1;fill:#ffffff;transform:scale(1.4)}44.28%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h41_4{0%,42.366%{opacity:1;fill:#0e4429;transform:scale(1)}42.631%{opacity:1;fill:#ffffff;transform:scale(1.4)}43.512%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h41_5{0%,41.599%{opacity:1;fill:#006d32;transform:scale(1)}41.863%{opacity:1;fill:#ffffff;transform:scale(1.4)}42.745%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h41_6{0%,40.832%{opacity:1;fill:#0e4429;transform:scale(1)}41.096%{opacity:1;fill:#ffffff;transform:scale(1.4)}41.978%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h42_0{0%,49.755%{opacity:1;fill:#0e4429;transform:scale(1)}50.019%{opacity:1;fill:#ffffff;transform:scale(1.4)}50.901%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h42_1{0%,48.988%{opacity:1;fill:#0e4429;transform:scale(1)}49.252%{opacity:1;fill:#ffffff;transform:scale(1.4)}50.134%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h42_2{0%,48.22%{opacity:1;fill:#0e4429;transform:scale(1)}48.485%{opacity:1;fill:#ffffff;transform:scale(1.4)}49.366%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h42_3{0%,47.453%{opacity:1;fill:#0e4429;transform:scale(1)}47.717%{opacity:1;fill:#ffffff;transform:scale(1.4)}48.599%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h42_4{0%,46.686%{opacity:1;fill:#0e4429;transform:scale(1)}46.95%{opacity:1;fill:#ffffff;transform:scale(1.4)}47.831%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h42_5{0%,45.918%{opacity:1;fill:#006d32;transform:scale(1)}46.183%{opacity:1;fill:#ffffff;transform:scale(1.4)}47.064%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h42_6{0%,45.151%{opacity:1;fill:#0e4429;transform:scale(1)}45.415%{opacity:1;fill:#ffffff;transform:scale(1.4)}46.297%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h43_0{0%,54.074%{opacity:1;fill:#0e4429;transform:scale(1)}54.339%{opacity:1;fill:#ffffff;transform:scale(1.4)}55.22%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h43_1{0%,53.307%{opacity:1;fill:#0e4429;transform:scale(1)}53.571%{opacity:1;fill:#ffffff;transform:scale(1.4)}54.453%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h43_2{0%,52.539%{opacity:1;fill:#0e4429;transform:scale(1)}52.804%{opacity:1;fill:#ffffff;transform:scale(1.4)}53.685%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h43_3{0%,51.772%{opacity:1;fill:#0e4429;transform:scale(1)}52.036%{opacity:1;fill:#ffffff;transform:scale(1.4)}52.918%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h43_4{0%,51.005%{opacity:1;fill:#006d32;transform:scale(1)}51.269%{opacity:1;fill:#ffffff;transform:scale(1.4)}52.15%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h43_5{0%,50.237%{opacity:1;fill:#0e4429;transform:scale(1)}50.502%{opacity:1;fill:#ffffff;transform:scale(1.4)}51.383%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h43_6{0%,49.47%{opacity:1;fill:#0e4429;transform:scale(1)}49.734%{opacity:1;fill:#ffffff;transform:scale(1.4)}50.616%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h44_0{0%,58.393%{opacity:1;fill:#006d32;transform:scale(1)}58.658%{opacity:1;fill:#ffffff;transform:scale(1.4)}59.539%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h44_1{0%,57.626%{opacity:1;fill:#0e4429;transform:scale(1)}57.89%{opacity:1;fill:#ffffff;transform:scale(1.4)}58.772%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h44_2{0%,56.858%{opacity:1;fill:#0e4429;transform:scale(1)}57.123%{opacity:1;fill:#ffffff;transform:scale(1.4)}58.004%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h44_3{0%,56.091%{opacity:1;fill:#006d32;transform:scale(1)}56.355%{opacity:1;fill:#ffffff;transform:scale(1.4)}57.237%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h44_4{0%,55.324%{opacity:1;fill:#0e4429;transform:scale(1)}55.588%{opacity:1;fill:#ffffff;transform:scale(1.4)}56.47%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h44_5{0%,54.556%{opacity:1;fill:#0e4429;transform:scale(1)}54.821%{opacity:1;fill:#ffffff;transform:scale(1.4)}55.702%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h44_6{0%,53.789%{opacity:1;fill:#006d32;transform:scale(1)}54.053%{opacity:1;fill:#ffffff;transform:scale(1.4)}54.935%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h45_0{0%,62.712%{opacity:1;fill:#0e4429;transform:scale(1)}62.977%{opacity:1;fill:#ffffff;transform:scale(1.4)}63.858%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h45_1{0%,61.945%{opacity:1;fill:#0e4429;transform:scale(1)}62.209%{opacity:1;fill:#ffffff;transform:scale(1.4)}63.091%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h45_2{0%,61.178%{opacity:1;fill:#0e4429;transform:scale(1)}61.442%{opacity:1;fill:#ffffff;transform:scale(1.4)}62.323%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h45_3{0%,60.41%{opacity:1;fill:#0e4429;transform:scale(1)}60.675%{opacity:1;fill:#ffffff;transform:scale(1.4)}61.556%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h45_4{0%,59.643%{opacity:1;fill:#0e4429;transform:scale(1)}59.907%{opacity:1;fill:#ffffff;transform:scale(1.4)}60.789%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h45_5{0%,58.875%{opacity:1;fill:#0e4429;transform:scale(1)}59.14%{opacity:1;fill:#ffffff;transform:scale(1.4)}60.021%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h45_6{0%,58.108%{opacity:1;fill:#006d32;transform:scale(1)}58.372%{opacity:1;fill:#ffffff;transform:scale(1.4)}59.254%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h46_0{0%,67.031%{opacity:1;fill:#0e4429;transform:scale(1)}67.296%{opacity:1;fill:#ffffff;transform:scale(1.4)}68.177%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h46_1{0%,66.264%{opacity:1;fill:#0e4429;transform:scale(1)}66.528%{opacity:1;fill:#ffffff;transform:scale(1.4)}67.41%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h46_2{0%,65.497%{opacity:1;fill:#0e4429;transform:scale(1)}65.761%{opacity:1;fill:#ffffff;transform:scale(1.4)}66.642%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h46_3{0%,64.729%{opacity:1;fill:#0e4429;transform:scale(1)}64.994%{opacity:1;fill:#ffffff;transform:scale(1.4)}65.875%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h46_4{0%,63.962%{opacity:1;fill:#0e4429;transform:scale(1)}64.226%{opacity:1;fill:#ffffff;transform:scale(1.4)}65.108%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h46_5{0%,63.194%{opacity:1;fill:#0e4429;transform:scale(1)}63.459%{opacity:1;fill:#ffffff;transform:scale(1.4)}64.34%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h46_6{0%,62.427%{opacity:1;fill:#006d32;transform:scale(1)}62.692%{opacity:1;fill:#ffffff;transform:scale(1.4)}63.573%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h47_0{0%,71.35%{opacity:1;fill:#006d32;transform:scale(1)}71.615%{opacity:1;fill:#ffffff;transform:scale(1.4)}72.496%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h47_1{0%,70.583%{opacity:1;fill:#26a641;transform:scale(1)}70.847%{opacity:1;fill:#ffffff;transform:scale(1.4)}71.729%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h47_2{0%,69.816%{opacity:1;fill:#006d32;transform:scale(1)}70.08%{opacity:1;fill:#ffffff;transform:scale(1.4)}70.962%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h47_3{0%,69.048%{opacity:1;fill:#0e4429;transform:scale(1)}69.313%{opacity:1;fill:#ffffff;transform:scale(1.4)}70.194%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h47_4{0%,68.281%{opacity:1;fill:#006d32;transform:scale(1)}68.545%{opacity:1;fill:#ffffff;transform:scale(1.4)}69.427%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h47_5{0%,67.514%{opacity:1;fill:#39d353;transform:scale(1)}67.778%{opacity:1;fill:#ffffff;transform:scale(1.4)}68.659%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
-    @keyframes h47_6{0%,66.746%{opacity:1;fill:#006d32;transform:scale(1)}67.011%{opacity:1;fill:#ffffff;transform:scale(1.4)}67.892%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h48_0{0%,75.67%{opacity:1;fill:#0e4429;transform:scale(1)}75.934%{opacity:1;fill:#ffffff;transform:scale(1.4)}76.815%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h48_1{0%,74.902%{opacity:1;fill:#006d32;transform:scale(1)}75.167%{opacity:1;fill:#ffffff;transform:scale(1.4)}76.048%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h48_2{0%,74.135%{opacity:1;fill:#006d32;transform:scale(1)}74.399%{opacity:1;fill:#ffffff;transform:scale(1.4)}75.281%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h48_3{0%,73.367%{opacity:1;fill:#0e4429;transform:scale(1)}73.632%{opacity:1;fill:#ffffff;transform:scale(1.4)}74.513%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h48_4{0%,72.6%{opacity:1;fill:#0e4429;transform:scale(1)}72.864%{opacity:1;fill:#ffffff;transform:scale(1.4)}73.746%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h48_5{0%,71.833%{opacity:1;fill:#006d32;transform:scale(1)}72.097%{opacity:1;fill:#ffffff;transform:scale(1.4)}72.979%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h48_6{0%,71.065%{opacity:1;fill:#26a641;transform:scale(1)}71.33%{opacity:1;fill:#ffffff;transform:scale(1.4)}72.211%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h49_0{0%,79.989%{opacity:1;fill:#006d32;transform:scale(1)}80.253%{opacity:1;fill:#ffffff;transform:scale(1.4)}81.134%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h49_1{0%,79.221%{opacity:1;fill:#006d32;transform:scale(1)}79.486%{opacity:1;fill:#ffffff;transform:scale(1.4)}80.367%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h49_2{0%,78.454%{opacity:1;fill:#006d32;transform:scale(1)}78.718%{opacity:1;fill:#ffffff;transform:scale(1.4)}79.6%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h49_3{0%,77.686%{opacity:1;fill:#006d32;transform:scale(1)}77.951%{opacity:1;fill:#ffffff;transform:scale(1.4)}78.832%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h49_4{0%,76.919%{opacity:1;fill:#26a641;transform:scale(1)}77.184%{opacity:1;fill:#ffffff;transform:scale(1.4)}78.065%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h49_5{0%,76.152%{opacity:1;fill:#39d353;transform:scale(1)}76.416%{opacity:1;fill:#ffffff;transform:scale(1.4)}77.298%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
-    @keyframes h49_6{0%,75.384%{opacity:1;fill:#39d353;transform:scale(1)}75.649%{opacity:1;fill:#ffffff;transform:scale(1.4)}76.53%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
-    @keyframes h50_0{0%,84.308%{opacity:1;fill:#26a641;transform:scale(1)}84.572%{opacity:1;fill:#ffffff;transform:scale(1.4)}85.454%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h50_1{0%,83.54%{opacity:1;fill:#26a641;transform:scale(1)}83.805%{opacity:1;fill:#ffffff;transform:scale(1.4)}84.686%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h50_2{0%,82.773%{opacity:1;fill:#26a641;transform:scale(1)}83.037%{opacity:1;fill:#ffffff;transform:scale(1.4)}83.919%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h50_3{0%,82.006%{opacity:1;fill:#26a641;transform:scale(1)}82.27%{opacity:1;fill:#ffffff;transform:scale(1.4)}83.151%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h50_4{0%,81.238%{opacity:1;fill:#26a641;transform:scale(1)}81.503%{opacity:1;fill:#ffffff;transform:scale(1.4)}82.384%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h50_5{0%,80.471%{opacity:1;fill:#26a641;transform:scale(1)}80.735%{opacity:1;fill:#ffffff;transform:scale(1.4)}81.617%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h50_6{0%,79.703%{opacity:1;fill:#26a641;transform:scale(1)}79.968%{opacity:1;fill:#ffffff;transform:scale(1.4)}80.849%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h51_0{0%,88.627%{opacity:1;fill:#26a641;transform:scale(1)}88.891%{opacity:1;fill:#ffffff;transform:scale(1.4)}89.773%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
-    @keyframes h51_1{0%,87.859%{opacity:1;fill:#006d32;transform:scale(1)}88.124%{opacity:1;fill:#ffffff;transform:scale(1.4)}89.005%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h51_2{0%,87.092%{opacity:1;fill:#006d32;transform:scale(1)}87.356%{opacity:1;fill:#ffffff;transform:scale(1.4)}88.238%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h51_3{0%,86.325%{opacity:1;fill:#006d32;transform:scale(1)}86.589%{opacity:1;fill:#ffffff;transform:scale(1.4)}87.471%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h51_4{0%,85.557%{opacity:1;fill:#0e4429;transform:scale(1)}85.822%{opacity:1;fill:#ffffff;transform:scale(1.4)}86.703%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h51_5{0%,84.79%{opacity:1;fill:#0e4429;transform:scale(1)}85.054%{opacity:1;fill:#ffffff;transform:scale(1.4)}85.936%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h51_6{0%,84.023%{opacity:1;fill:#0e4429;transform:scale(1)}84.287%{opacity:1;fill:#ffffff;transform:scale(1.4)}85.168%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h52_0{0%,92.946%{opacity:1;fill:#006d32;transform:scale(1)}93.21%{opacity:1;fill:#ffffff;transform:scale(1.4)}94.092%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
-    @keyframes h52_1{0%,92.178%{opacity:1;fill:#0e4429;transform:scale(1)}92.443%{opacity:1;fill:#ffffff;transform:scale(1.4)}93.324%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h52_2{0%,91.411%{opacity:1;fill:#0e4429;transform:scale(1)}91.676%{opacity:1;fill:#ffffff;transform:scale(1.4)}92.557%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h52_3{0%,90.644%{opacity:1;fill:#0e4429;transform:scale(1)}90.908%{opacity:1;fill:#ffffff;transform:scale(1.4)}91.79%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h52_4{0%,89.876%{opacity:1;fill:#0e4429;transform:scale(1)}90.141%{opacity:1;fill:#ffffff;transform:scale(1.4)}91.022%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h52_5{0%,89.109%{opacity:1;fill:#0e4429;transform:scale(1)}89.373%{opacity:1;fill:#ffffff;transform:scale(1.4)}90.255%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes h52_6{0%,88.342%{opacity:1;fill:#0e4429;transform:scale(1)}88.606%{opacity:1;fill:#ffffff;transform:scale(1.4)}89.487%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
-    @keyframes b5_4{0%,3.085%{opacity:0;transform:translateY(0)}3.151%{opacity:1}3.693%{opacity:1}3.759%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b24_6{0%,9.52%{opacity:0;transform:translateY(0)}9.586%{opacity:1}9.739%{opacity:1}9.805%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b24_5{0%,10.093%{opacity:0;transform:translateY(0)}10.159%{opacity:1}10.506%{opacity:1}10.572%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b26_1{0%,11.283%{opacity:0;transform:translateY(0)}11.349%{opacity:1}12.474%{opacity:1}12.54%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b32_3{0%,13.706%{opacity:0;transform:translateY(0)}13.773%{opacity:1}14.509%{opacity:1}14.575%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b32_2{0%,14.279%{opacity:0;transform:translateY(0)}14.346%{opacity:1}15.276%{opacity:1}15.342%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b32_1{0%,14.852%{opacity:0;transform:translateY(0)}14.918%{opacity:1}16.044%{opacity:1}16.11%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b33_4{0%,15.734%{opacity:0;transform:translateY(0)}15.8%{opacity:1}16.342%{opacity:1}16.408%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b33_2{0%,16.307%{opacity:0;transform:translateY(0)}16.373%{opacity:1}17.304%{opacity:1}17.37%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b33_0{0%,16.88%{opacity:0;transform:translateY(0)}16.946%{opacity:1}18.265%{opacity:1}18.331%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b35_6{0%,18.07%{opacity:0;transform:translateY(0)}18.136%{opacity:1}18.289%{opacity:1}18.355%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b36_6{0%,18.951%{opacity:0;transform:translateY(0)}19.017%{opacity:1}19.17%{opacity:1}19.236%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b36_5{0%,19.524%{opacity:0;transform:translateY(0)}19.59%{opacity:1}19.938%{opacity:1}20.004%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b36_4{0%,20.097%{opacity:0;transform:translateY(0)}20.163%{opacity:1}20.705%{opacity:1}20.771%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b36_3{0%,20.67%{opacity:0;transform:translateY(0)}20.736%{opacity:1}21.472%{opacity:1}21.538%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b36_2{0%,21.243%{opacity:0;transform:translateY(0)}21.309%{opacity:1}22.24%{opacity:1}22.306%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b36_1{0%,21.816%{opacity:0;transform:translateY(0)}21.882%{opacity:1}23.007%{opacity:1}23.073%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b36_0{0%,22.389%{opacity:0;transform:translateY(0)}22.455%{opacity:1}23.774%{opacity:1}23.841%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b37_6{0%,23.27%{opacity:0;transform:translateY(0)}23.336%{opacity:1}23.489%{opacity:1}23.555%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b37_5{0%,23.843%{opacity:0;transform:translateY(0)}23.909%{opacity:1}24.257%{opacity:1}24.323%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b37_4{0%,24.416%{opacity:0;transform:translateY(0)}24.482%{opacity:1}25.024%{opacity:1}25.09%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b37_3{0%,24.989%{opacity:0;transform:translateY(0)}25.055%{opacity:1}25.791%{opacity:1}25.857%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b37_2{0%,25.562%{opacity:0;transform:translateY(0)}25.628%{opacity:1}26.559%{opacity:1}26.625%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b37_1{0%,26.135%{opacity:0;transform:translateY(0)}26.201%{opacity:1}27.326%{opacity:1}27.392%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b37_0{0%,26.708%{opacity:0;transform:translateY(0)}26.774%{opacity:1}28.093%{opacity:1}28.16%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b38_6{0%,27.589%{opacity:0;transform:translateY(0)}27.655%{opacity:1}27.808%{opacity:1}27.874%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b38_5{0%,28.162%{opacity:0;transform:translateY(0)}28.228%{opacity:1}28.576%{opacity:1}28.642%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b38_4{0%,28.735%{opacity:0;transform:translateY(0)}28.801%{opacity:1}29.343%{opacity:1}29.409%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b38_3{0%,29.308%{opacity:0;transform:translateY(0)}29.374%{opacity:1}30.11%{opacity:1}30.177%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b38_2{0%,29.881%{opacity:0;transform:translateY(0)}29.947%{opacity:1}30.878%{opacity:1}30.944%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b38_1{0%,30.454%{opacity:0;transform:translateY(0)}30.52%{opacity:1}31.645%{opacity:1}31.711%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b38_0{0%,31.027%{opacity:0;transform:translateY(0)}31.093%{opacity:1}32.413%{opacity:1}32.479%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b39_6{0%,31.908%{opacity:0;transform:translateY(0)}31.974%{opacity:1}32.127%{opacity:1}32.194%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b39_5{0%,32.481%{opacity:0;transform:translateY(0)}32.547%{opacity:1}32.895%{opacity:1}32.961%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b39_4{0%,33.054%{opacity:0;transform:translateY(0)}33.12%{opacity:1}33.662%{opacity:1}33.728%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b39_3{0%,33.627%{opacity:0;transform:translateY(0)}33.693%{opacity:1}34.43%{opacity:1}34.496%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b39_2{0%,34.2%{opacity:0;transform:translateY(0)}34.266%{opacity:1}35.197%{opacity:1}35.263%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b39_1{0%,34.773%{opacity:0;transform:translateY(0)}34.839%{opacity:1}35.964%{opacity:1}36.03%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b39_0{0%,35.346%{opacity:0;transform:translateY(0)}35.412%{opacity:1}36.732%{opacity:1}36.798%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b40_6{0%,36.227%{opacity:0;transform:translateY(0)}36.294%{opacity:1}36.446%{opacity:1}36.513%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b40_5{0%,36.8%{opacity:0;transform:translateY(0)}36.866%{opacity:1}37.214%{opacity:1}37.28%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b40_4{0%,37.373%{opacity:0;transform:translateY(0)}37.439%{opacity:1}37.981%{opacity:1}38.047%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b40_3{0%,37.946%{opacity:0;transform:translateY(0)}38.012%{opacity:1}38.749%{opacity:1}38.815%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b40_2{0%,38.519%{opacity:0;transform:translateY(0)}38.585%{opacity:1}39.516%{opacity:1}39.582%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b40_1{0%,39.092%{opacity:0;transform:translateY(0)}39.158%{opacity:1}40.283%{opacity:1}40.349%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b40_0{0%,39.665%{opacity:0;transform:translateY(0)}39.731%{opacity:1}41.051%{opacity:1}41.117%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b41_6{0%,40.546%{opacity:0;transform:translateY(0)}40.613%{opacity:1}40.766%{opacity:1}40.832%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b41_5{0%,41.119%{opacity:0;transform:translateY(0)}41.186%{opacity:1}41.533%{opacity:1}41.599%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b41_4{0%,41.692%{opacity:0;transform:translateY(0)}41.758%{opacity:1}42.3%{opacity:1}42.366%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b41_3{0%,42.265%{opacity:0;transform:translateY(0)}42.331%{opacity:1}43.068%{opacity:1}43.134%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b41_2{0%,42.838%{opacity:0;transform:translateY(0)}42.904%{opacity:1}43.835%{opacity:1}43.901%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b41_1{0%,43.411%{opacity:0;transform:translateY(0)}43.477%{opacity:1}44.602%{opacity:1}44.669%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b41_0{0%,43.984%{opacity:0;transform:translateY(0)}44.05%{opacity:1}45.37%{opacity:1}45.436%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b42_6{0%,44.866%{opacity:0;transform:translateY(0)}44.932%{opacity:1}45.085%{opacity:1}45.151%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b42_5{0%,45.439%{opacity:0;transform:translateY(0)}45.505%{opacity:1}45.852%{opacity:1}45.918%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b42_4{0%,46.011%{opacity:0;transform:translateY(0)}46.078%{opacity:1}46.619%{opacity:1}46.686%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b42_3{0%,46.584%{opacity:0;transform:translateY(0)}46.651%{opacity:1}47.387%{opacity:1}47.453%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b42_2{0%,47.157%{opacity:0;transform:translateY(0)}47.223%{opacity:1}48.154%{opacity:1}48.22%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b42_1{0%,47.73%{opacity:0;transform:translateY(0)}47.796%{opacity:1}48.922%{opacity:1}48.988%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b42_0{0%,48.303%{opacity:0;transform:translateY(0)}48.369%{opacity:1}49.689%{opacity:1}49.755%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b43_6{0%,49.185%{opacity:0;transform:translateY(0)}49.251%{opacity:1}49.404%{opacity:1}49.47%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b43_5{0%,49.758%{opacity:0;transform:translateY(0)}49.824%{opacity:1}50.171%{opacity:1}50.237%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b43_4{0%,50.331%{opacity:0;transform:translateY(0)}50.397%{opacity:1}50.938%{opacity:1}51.005%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b43_3{0%,50.903%{opacity:0;transform:translateY(0)}50.97%{opacity:1}51.706%{opacity:1}51.772%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b43_2{0%,51.476%{opacity:0;transform:translateY(0)}51.543%{opacity:1}52.473%{opacity:1}52.539%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b43_1{0%,52.049%{opacity:0;transform:translateY(0)}52.115%{opacity:1}53.241%{opacity:1}53.307%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b43_0{0%,52.622%{opacity:0;transform:translateY(0)}52.688%{opacity:1}54.008%{opacity:1}54.074%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b44_6{0%,53.504%{opacity:0;transform:translateY(0)}53.57%{opacity:1}53.723%{opacity:1}53.789%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b44_5{0%,54.077%{opacity:0;transform:translateY(0)}54.143%{opacity:1}54.49%{opacity:1}54.556%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b44_4{0%,54.65%{opacity:0;transform:translateY(0)}54.716%{opacity:1}55.258%{opacity:1}55.324%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b44_3{0%,55.223%{opacity:0;transform:translateY(0)}55.289%{opacity:1}56.025%{opacity:1}56.091%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b44_2{0%,55.796%{opacity:0;transform:translateY(0)}55.862%{opacity:1}56.792%{opacity:1}56.858%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b44_1{0%,56.368%{opacity:0;transform:translateY(0)}56.435%{opacity:1}57.56%{opacity:1}57.626%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b44_0{0%,56.941%{opacity:0;transform:translateY(0)}57.007%{opacity:1}58.327%{opacity:1}58.393%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b45_6{0%,57.823%{opacity:0;transform:translateY(0)}57.889%{opacity:1}58.042%{opacity:1}58.108%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b45_5{0%,58.396%{opacity:0;transform:translateY(0)}58.462%{opacity:1}58.809%{opacity:1}58.875%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b45_4{0%,58.969%{opacity:0;transform:translateY(0)}59.035%{opacity:1}59.577%{opacity:1}59.643%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b45_3{0%,59.542%{opacity:0;transform:translateY(0)}59.608%{opacity:1}60.344%{opacity:1}60.41%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b45_2{0%,60.115%{opacity:0;transform:translateY(0)}60.181%{opacity:1}61.111%{opacity:1}61.178%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b45_1{0%,60.688%{opacity:0;transform:translateY(0)}60.754%{opacity:1}61.879%{opacity:1}61.945%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b45_0{0%,61.26%{opacity:0;transform:translateY(0)}61.327%{opacity:1}62.646%{opacity:1}62.712%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b46_6{0%,62.142%{opacity:0;transform:translateY(0)}62.208%{opacity:1}62.361%{opacity:1}62.427%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b46_5{0%,62.715%{opacity:0;transform:translateY(0)}62.781%{opacity:1}63.128%{opacity:1}63.194%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b46_4{0%,63.288%{opacity:0;transform:translateY(0)}63.354%{opacity:1}63.896%{opacity:1}63.962%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b46_3{0%,63.861%{opacity:0;transform:translateY(0)}63.927%{opacity:1}64.663%{opacity:1}64.729%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b46_2{0%,64.434%{opacity:0;transform:translateY(0)}64.5%{opacity:1}65.43%{opacity:1}65.497%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b46_1{0%,65.007%{opacity:0;transform:translateY(0)}65.073%{opacity:1}66.198%{opacity:1}66.264%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b46_0{0%,65.58%{opacity:0;transform:translateY(0)}65.646%{opacity:1}66.965%{opacity:1}67.031%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b47_6{0%,66.461%{opacity:0;transform:translateY(0)}66.527%{opacity:1}66.68%{opacity:1}66.746%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b47_5{0%,67.034%{opacity:0;transform:translateY(0)}67.1%{opacity:1}67.447%{opacity:1}67.514%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b47_4{0%,67.607%{opacity:0;transform:translateY(0)}67.673%{opacity:1}68.215%{opacity:1}68.281%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b47_3{0%,68.18%{opacity:0;transform:translateY(0)}68.246%{opacity:1}68.982%{opacity:1}69.048%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b47_2{0%,68.753%{opacity:0;transform:translateY(0)}68.819%{opacity:1}69.75%{opacity:1}69.816%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b47_1{0%,69.326%{opacity:0;transform:translateY(0)}69.392%{opacity:1}70.517%{opacity:1}70.583%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b47_0{0%,69.899%{opacity:0;transform:translateY(0)}69.965%{opacity:1}71.284%{opacity:1}71.35%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b48_6{0%,70.78%{opacity:0;transform:translateY(0)}70.846%{opacity:1}70.999%{opacity:1}71.065%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b48_5{0%,71.353%{opacity:0;transform:translateY(0)}71.419%{opacity:1}71.767%{opacity:1}71.833%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b48_4{0%,71.926%{opacity:0;transform:translateY(0)}71.992%{opacity:1}72.534%{opacity:1}72.6%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b48_3{0%,72.499%{opacity:0;transform:translateY(0)}72.565%{opacity:1}73.301%{opacity:1}73.367%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b48_2{0%,73.072%{opacity:0;transform:translateY(0)}73.138%{opacity:1}74.069%{opacity:1}74.135%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b48_1{0%,73.645%{opacity:0;transform:translateY(0)}73.711%{opacity:1}74.836%{opacity:1}74.902%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b48_0{0%,74.218%{opacity:0;transform:translateY(0)}74.284%{opacity:1}75.603%{opacity:1}75.67%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b49_6{0%,75.099%{opacity:0;transform:translateY(0)}75.165%{opacity:1}75.318%{opacity:1}75.384%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b49_5{0%,75.672%{opacity:0;transform:translateY(0)}75.738%{opacity:1}76.086%{opacity:1}76.152%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b49_4{0%,76.245%{opacity:0;transform:translateY(0)}76.311%{opacity:1}76.853%{opacity:1}76.919%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b49_3{0%,76.818%{opacity:0;transform:translateY(0)}76.884%{opacity:1}77.62%{opacity:1}77.686%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b49_2{0%,77.391%{opacity:0;transform:translateY(0)}77.457%{opacity:1}78.388%{opacity:1}78.454%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b49_1{0%,77.964%{opacity:0;transform:translateY(0)}78.03%{opacity:1}79.155%{opacity:1}79.221%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b49_0{0%,78.537%{opacity:0;transform:translateY(0)}78.603%{opacity:1}79.922%{opacity:1}79.989%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b50_6{0%,79.418%{opacity:0;transform:translateY(0)}79.484%{opacity:1}79.637%{opacity:1}79.703%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b50_5{0%,79.991%{opacity:0;transform:translateY(0)}80.057%{opacity:1}80.405%{opacity:1}80.471%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b50_4{0%,80.564%{opacity:0;transform:translateY(0)}80.63%{opacity:1}81.172%{opacity:1}81.238%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b50_3{0%,81.137%{opacity:0;transform:translateY(0)}81.203%{opacity:1}81.939%{opacity:1}82.006%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b50_2{0%,81.71%{opacity:0;transform:translateY(0)}81.776%{opacity:1}82.707%{opacity:1}82.773%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b50_1{0%,82.283%{opacity:0;transform:translateY(0)}82.349%{opacity:1}83.474%{opacity:1}83.54%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b50_0{0%,82.856%{opacity:0;transform:translateY(0)}82.922%{opacity:1}84.242%{opacity:1}84.308%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b51_6{0%,83.737%{opacity:0;transform:translateY(0)}83.803%{opacity:1}83.956%{opacity:1}84.023%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b51_5{0%,84.31%{opacity:0;transform:translateY(0)}84.376%{opacity:1}84.724%{opacity:1}84.79%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b51_4{0%,84.883%{opacity:0;transform:translateY(0)}84.949%{opacity:1}85.491%{opacity:1}85.557%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b51_3{0%,85.456%{opacity:0;transform:translateY(0)}85.522%{opacity:1}86.259%{opacity:1}86.325%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b51_2{0%,86.029%{opacity:0;transform:translateY(0)}86.095%{opacity:1}87.026%{opacity:1}87.092%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b51_1{0%,86.602%{opacity:0;transform:translateY(0)}86.668%{opacity:1}87.793%{opacity:1}87.859%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b51_0{0%,87.175%{opacity:0;transform:translateY(0)}87.241%{opacity:1}88.561%{opacity:1}88.627%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes b52_6{0%,88.056%{opacity:0;transform:translateY(0)}88.123%{opacity:1}88.275%{opacity:1}88.342%,100%{opacity:0;transform:translateY(-22px)}}
-    @keyframes b52_5{0%,88.629%{opacity:0;transform:translateY(0)}88.695%{opacity:1}89.043%{opacity:1}89.109%,100%{opacity:0;transform:translateY(-37px)}}
-    @keyframes b52_4{0%,89.202%{opacity:0;transform:translateY(0)}89.268%{opacity:1}89.81%{opacity:1}89.876%,100%{opacity:0;transform:translateY(-52px)}}
-    @keyframes b52_3{0%,89.775%{opacity:0;transform:translateY(0)}89.841%{opacity:1}90.578%{opacity:1}90.644%,100%{opacity:0;transform:translateY(-67px)}}
-    @keyframes b52_2{0%,90.348%{opacity:0;transform:translateY(0)}90.414%{opacity:1}91.345%{opacity:1}91.411%,100%{opacity:0;transform:translateY(-82px)}}
-    @keyframes b52_1{0%,90.921%{opacity:0;transform:translateY(0)}90.987%{opacity:1}92.112%{opacity:1}92.178%,100%{opacity:0;transform:translateY(-97px)}}
-    @keyframes b52_0{0%,91.494%{opacity:0;transform:translateY(0)}91.56%{opacity:1}92.88%{opacity:1}92.946%,100%{opacity:0;transform:translateY(-112px)}}
-    @keyframes fly{0%{transform:translateX(6px);opacity:0}1.08%{opacity:1}1.543%{transform:translateX(6px)}1.851%{transform:translateX(21px)}2.16%{transform:translateX(36px)}2.468%{transform:translateX(51px)}2.777%{transform:translateX(66px)}3.085%{transform:translateX(81px)}3.658%{transform:translateX(81px)}3.967%{transform:translateX(96px)}4.275%{transform:translateX(111px)}4.584%{transform:translateX(126px)}4.892%{transform:translateX(141px)}5.201%{transform:translateX(156px)}5.509%{transform:translateX(171px)}5.818%{transform:translateX(186px)}6.126%{transform:translateX(201px)}6.435%{transform:translateX(216px)}6.743%{transform:translateX(231px)}7.052%{transform:translateX(246px)}7.36%{transform:translateX(261px)}7.669%{transform:translateX(276px)}7.977%{transform:translateX(291px)}8.286%{transform:translateX(306px)}8.594%{transform:translateX(321px)}8.903%{transform:translateX(336px)}9.211%{transform:translateX(351px)}9.52%{transform:translateX(366px)}10.665%{transform:translateX(366px)}10.974%{transform:translateX(381px)}11.283%{transform:translateX(396px)}11.855%{transform:translateX(396px)}12.164%{transform:translateX(411px)}12.472%{transform:translateX(426px)}12.781%{transform:translateX(441px)}13.089%{transform:translateX(456px)}13.398%{transform:translateX(471px)}13.706%{transform:translateX(486px)}15.425%{transform:translateX(486px)}15.734%{transform:translateX(501px)}17.453%{transform:translateX(501px)}17.761%{transform:translateX(516px)}18.07%{transform:translateX(531px)}18.643%{transform:translateX(531px)}18.951%{transform:translateX(546px)}22.962%{transform:translateX(546px)}23.27%{transform:translateX(561px)}27.281%{transform:translateX(561px)}27.589%{transform:translateX(576px)}31.6%{transform:translateX(576px)}31.908%{transform:translateX(591px)}35.919%{transform:translateX(591px)}36.227%{transform:translateX(606px)}40.238%{transform:translateX(606px)}40.546%{transform:translateX(621px)}44.557%{transform:translateX(621px)}44.866%{transform:translateX(636px)}48.876%{transform:translateX(636px)}49.185%{transform:translateX(651px)}53.195%{transform:translateX(651px)}53.504%{transform:translateX(666px)}57.514%{transform:translateX(666px)}57.823%{transform:translateX(681px)}61.833%{transform:translateX(681px)}62.142%{transform:translateX(696px)}66.152%{transform:translateX(696px)}66.461%{transform:translateX(711px)}70.472%{transform:translateX(711px)}70.78%{transform:translateX(726px)}74.791%{transform:translateX(726px)}75.099%{transform:translateX(741px)}79.11%{transform:translateX(741px)}79.418%{transform:translateX(756px)}83.429%{transform:translateX(756px)}83.737%{transform:translateX(771px)}87.748%{transform:translateX(771px)}88.056%{transform:translateX(786px)}92.067%{transform:translateX(786px)}96.912%,100%{transform:translateX(876px);opacity:0}}
-    .h5_4{animation-name:h5_4}.h24_5{animation-name:h24_5}.h24_6{animation-name:h24_6}.h26_1{animation-name:h26_1}.h32_1{animation-name:h32_1}.h32_2{animation-name:h32_2}.h32_3{animation-name:h32_3}.h33_0{animation-name:h33_0}.h33_2{animation-name:h33_2}.h33_4{animation-name:h33_4}.h35_6{animation-name:h35_6}.h36_0{animation-name:h36_0}.h36_1{animation-name:h36_1}.h36_2{animation-name:h36_2}.h36_3{animation-name:h36_3}.h36_4{animation-name:h36_4}.h36_5{animation-name:h36_5}.h36_6{animation-name:h36_6}.h37_0{animation-name:h37_0}.h37_1{animation-name:h37_1}.h37_2{animation-name:h37_2}.h37_3{animation-name:h37_3}.h37_4{animation-name:h37_4}.h37_5{animation-name:h37_5}.h37_6{animation-name:h37_6}.h38_0{animation-name:h38_0}.h38_1{animation-name:h38_1}.h38_2{animation-name:h38_2}.h38_3{animation-name:h38_3}.h38_4{animation-name:h38_4}.h38_5{animation-name:h38_5}.h38_6{animation-name:h38_6}.h39_0{animation-name:h39_0}.h39_1{animation-name:h39_1}.h39_2{animation-name:h39_2}.h39_3{animation-name:h39_3}.h39_4{animation-name:h39_4}.h39_5{animation-name:h39_5}.h39_6{animation-name:h39_6}.h40_0{animation-name:h40_0}.h40_1{animation-name:h40_1}.h40_2{animation-name:h40_2}.h40_3{animation-name:h40_3}.h40_4{animation-name:h40_4}.h40_5{animation-name:h40_5}.h40_6{animation-name:h40_6}.h41_0{animation-name:h41_0}.h41_1{animation-name:h41_1}.h41_2{animation-name:h41_2}.h41_3{animation-name:h41_3}.h41_4{animation-name:h41_4}.h41_5{animation-name:h41_5}.h41_6{animation-name:h41_6}.h42_0{animation-name:h42_0}.h42_1{animation-name:h42_1}.h42_2{animation-name:h42_2}.h42_3{animation-name:h42_3}.h42_4{animation-name:h42_4}.h42_5{animation-name:h42_5}.h42_6{animation-name:h42_6}.h43_0{animation-name:h43_0}.h43_1{animation-name:h43_1}.h43_2{animation-name:h43_2}.h43_3{animation-name:h43_3}.h43_4{animation-name:h43_4}.h43_5{animation-name:h43_5}.h43_6{animation-name:h43_6}.h44_0{animation-name:h44_0}.h44_1{animation-name:h44_1}.h44_2{animation-name:h44_2}.h44_3{animation-name:h44_3}.h44_4{animation-name:h44_4}.h44_5{animation-name:h44_5}.h44_6{animation-name:h44_6}.h45_0{animation-name:h45_0}.h45_1{animation-name:h45_1}.h45_2{animation-name:h45_2}.h45_3{animation-name:h45_3}.h45_4{animation-name:h45_4}.h45_5{animation-name:h45_5}.h45_6{animation-name:h45_6}.h46_0{animation-name:h46_0}.h46_1{animation-name:h46_1}.h46_2{animation-name:h46_2}.h46_3{animation-name:h46_3}.h46_4{animation-name:h46_4}.h46_5{animation-name:h46_5}.h46_6{animation-name:h46_6}.h47_0{animation-name:h47_0}.h47_1{animation-name:h47_1}.h47_2{animation-name:h47_2}.h47_3{animation-name:h47_3}.h47_4{animation-name:h47_4}.h47_5{animation-name:h47_5}.h47_6{animation-name:h47_6}.h48_0{animation-name:h48_0}.h48_1{animation-name:h48_1}.h48_2{animation-name:h48_2}.h48_3{animation-name:h48_3}.h48_4{animation-name:h48_4}.h48_5{animation-name:h48_5}.h48_6{animation-name:h48_6}.h49_0{animation-name:h49_0}.h49_1{animation-name:h49_1}.h49_2{animation-name:h49_2}.h49_3{animation-name:h49_3}.h49_4{animation-name:h49_4}.h49_5{animation-name:h49_5}.h49_6{animation-name:h49_6}.h50_0{animation-name:h50_0}.h50_1{animation-name:h50_1}.h50_2{animation-name:h50_2}.h50_3{animation-name:h50_3}.h50_4{animation-name:h50_4}.h50_5{animation-name:h50_5}.h50_6{animation-name:h50_6}.h51_0{animation-name:h51_0}.h51_1{animation-name:h51_1}.h51_2{animation-name:h51_2}.h51_3{animation-name:h51_3}.h51_4{animation-name:h51_4}.h51_5{animation-name:h51_5}.h51_6{animation-name:h51_6}.h52_0{animation-name:h52_0}.h52_1{animation-name:h52_1}.h52_2{animation-name:h52_2}.h52_3{animation-name:h52_3}.h52_4{animation-name:h52_4}.h52_5{animation-name:h52_5}.h52_6{animation-name:h52_6}.b5_4{animation-name:b5_4}.b24_6{animation-name:b24_6}.b24_5{animation-name:b24_5}.b26_1{animation-name:b26_1}.b32_3{animation-name:b32_3}.b32_2{animation-name:b32_2}.b32_1{animation-name:b32_1}.b33_4{animation-name:b33_4}.b33_2{animation-name:b33_2}.b33_0{animation-name:b33_0}.b35_6{animation-name:b35_6}.b36_6{animation-name:b36_6}.b36_5{animation-name:b36_5}.b36_4{animation-name:b36_4}.b36_3{animation-name:b36_3}.b36_2{animation-name:b36_2}.b36_1{animation-name:b36_1}.b36_0{animation-name:b36_0}.b37_6{animation-name:b37_6}.b37_5{animation-name:b37_5}.b37_4{animation-name:b37_4}.b37_3{animation-name:b37_3}.b37_2{animation-name:b37_2}.b37_1{animation-name:b37_1}.b37_0{animation-name:b37_0}.b38_6{animation-name:b38_6}.b38_5{animation-name:b38_5}.b38_4{animation-name:b38_4}.b38_3{animation-name:b38_3}.b38_2{animation-name:b38_2}.b38_1{animation-name:b38_1}.b38_0{animation-name:b38_0}.b39_6{animation-name:b39_6}.b39_5{animation-name:b39_5}.b39_4{animation-name:b39_4}.b39_3{animation-name:b39_3}.b39_2{animation-name:b39_2}.b39_1{animation-name:b39_1}.b39_0{animation-name:b39_0}.b40_6{animation-name:b40_6}.b40_5{animation-name:b40_5}.b40_4{animation-name:b40_4}.b40_3{animation-name:b40_3}.b40_2{animation-name:b40_2}.b40_1{animation-name:b40_1}.b40_0{animation-name:b40_0}.b41_6{animation-name:b41_6}.b41_5{animation-name:b41_5}.b41_4{animation-name:b41_4}.b41_3{animation-name:b41_3}.b41_2{animation-name:b41_2}.b41_1{animation-name:b41_1}.b41_0{animation-name:b41_0}.b42_6{animation-name:b42_6}.b42_5{animation-name:b42_5}.b42_4{animation-name:b42_4}.b42_3{animation-name:b42_3}.b42_2{animation-name:b42_2}.b42_1{animation-name:b42_1}.b42_0{animation-name:b42_0}.b43_6{animation-name:b43_6}.b43_5{animation-name:b43_5}.b43_4{animation-name:b43_4}.b43_3{animation-name:b43_3}.b43_2{animation-name:b43_2}.b43_1{animation-name:b43_1}.b43_0{animation-name:b43_0}.b44_6{animation-name:b44_6}.b44_5{animation-name:b44_5}.b44_4{animation-name:b44_4}.b44_3{animation-name:b44_3}.b44_2{animation-name:b44_2}.b44_1{animation-name:b44_1}.b44_0{animation-name:b44_0}.b45_6{animation-name:b45_6}.b45_5{animation-name:b45_5}.b45_4{animation-name:b45_4}.b45_3{animation-name:b45_3}.b45_2{animation-name:b45_2}.b45_1{animation-name:b45_1}.b45_0{animation-name:b45_0}.b46_6{animation-name:b46_6}.b46_5{animation-name:b46_5}.b46_4{animation-name:b46_4}.b46_3{animation-name:b46_3}.b46_2{animation-name:b46_2}.b46_1{animation-name:b46_1}.b46_0{animation-name:b46_0}.b47_6{animation-name:b47_6}.b47_5{animation-name:b47_5}.b47_4{animation-name:b47_4}.b47_3{animation-name:b47_3}.b47_2{animation-name:b47_2}.b47_1{animation-name:b47_1}.b47_0{animation-name:b47_0}.b48_6{animation-name:b48_6}.b48_5{animation-name:b48_5}.b48_4{animation-name:b48_4}.b48_3{animation-name:b48_3}.b48_2{animation-name:b48_2}.b48_1{animation-name:b48_1}.b48_0{animation-name:b48_0}.b49_6{animation-name:b49_6}.b49_5{animation-name:b49_5}.b49_4{animation-name:b49_4}.b49_3{animation-name:b49_3}.b49_2{animation-name:b49_2}.b49_1{animation-name:b49_1}.b49_0{animation-name:b49_0}.b50_6{animation-name:b50_6}.b50_5{animation-name:b50_5}.b50_4{animation-name:b50_4}.b50_3{animation-name:b50_3}.b50_2{animation-name:b50_2}.b50_1{animation-name:b50_1}.b50_0{animation-name:b50_0}.b51_6{animation-name:b51_6}.b51_5{animation-name:b51_5}.b51_4{animation-name:b51_4}.b51_3{animation-name:b51_3}.b51_2{animation-name:b51_2}.b51_1{animation-name:b51_1}.b51_0{animation-name:b51_0}.b52_6{animation-name:b52_6}.b52_5{animation-name:b52_5}.b52_4{animation-name:b52_4}.b52_3{animation-name:b52_3}.b52_2{animation-name:b52_2}.b52_1{animation-name:b52_1}.b52_0{animation-name:b52_0}
+    @keyframes h4_4{0%,3.461%{opacity:1;fill:#0e4429;transform:scale(1)}3.727%{opacity:1;fill:#ffffff;transform:scale(1.4)}4.611%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h23_5{0%,10.295%{opacity:1;fill:#0e4429;transform:scale(1)}10.561%{opacity:1;fill:#ffffff;transform:scale(1.4)}11.445%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h23_6{0%,9.526%{opacity:1;fill:#0e4429;transform:scale(1)}9.791%{opacity:1;fill:#ffffff;transform:scale(1.4)}10.675%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h25_1{0%,12.269%{opacity:1;fill:#0e4429;transform:scale(1)}12.534%{opacity:1;fill:#ffffff;transform:scale(1.4)}13.419%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h31_1{0%,15.85%{opacity:1;fill:#0e4429;transform:scale(1)}16.115%{opacity:1;fill:#ffffff;transform:scale(1.4)}17%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h31_2{0%,15.08%{opacity:1;fill:#39d353;transform:scale(1)}15.346%{opacity:1;fill:#ffffff;transform:scale(1.4)}16.23%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
+    @keyframes h31_3{0%,14.311%{opacity:1;fill:#0e4429;transform:scale(1)}14.576%{opacity:1;fill:#ffffff;transform:scale(1.4)}15.46%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h32_0{0%,18.079%{opacity:1;fill:#0e4429;transform:scale(1)}18.344%{opacity:1;fill:#ffffff;transform:scale(1.4)}19.228%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h32_2{0%,17.114%{opacity:1;fill:#0e4429;transform:scale(1)}17.379%{opacity:1;fill:#ffffff;transform:scale(1.4)}18.263%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h32_4{0%,16.149%{opacity:1;fill:#0e4429;transform:scale(1)}16.414%{opacity:1;fill:#ffffff;transform:scale(1.4)}17.299%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h34_6{0%,18.102%{opacity:1;fill:#0e4429;transform:scale(1)}18.367%{opacity:1;fill:#ffffff;transform:scale(1.4)}19.252%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h35_0{0%,23.605%{opacity:1;fill:#0e4429;transform:scale(1)}23.87%{opacity:1;fill:#ffffff;transform:scale(1.4)}24.754%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h35_1{0%,22.835%{opacity:1;fill:#0e4429;transform:scale(1)}23.1%{opacity:1;fill:#ffffff;transform:scale(1.4)}23.985%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h35_2{0%,22.065%{opacity:1;fill:#0e4429;transform:scale(1)}22.331%{opacity:1;fill:#ffffff;transform:scale(1.4)}23.215%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h35_3{0%,21.296%{opacity:1;fill:#0e4429;transform:scale(1)}21.561%{opacity:1;fill:#ffffff;transform:scale(1.4)}22.445%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h35_4{0%,20.526%{opacity:1;fill:#0e4429;transform:scale(1)}20.791%{opacity:1;fill:#ffffff;transform:scale(1.4)}21.675%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h35_5{0%,19.756%{opacity:1;fill:#0e4429;transform:scale(1)}20.021%{opacity:1;fill:#ffffff;transform:scale(1.4)}20.905%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h35_6{0%,18.986%{opacity:1;fill:#006d32;transform:scale(1)}19.252%{opacity:1;fill:#ffffff;transform:scale(1.4)}20.136%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h36_0{0%,27.937%{opacity:1;fill:#0e4429;transform:scale(1)}28.203%{opacity:1;fill:#ffffff;transform:scale(1.4)}29.087%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h36_1{0%,27.168%{opacity:1;fill:#006d32;transform:scale(1)}27.433%{opacity:1;fill:#ffffff;transform:scale(1.4)}28.317%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h36_2{0%,26.398%{opacity:1;fill:#0e4429;transform:scale(1)}26.663%{opacity:1;fill:#ffffff;transform:scale(1.4)}27.547%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h36_3{0%,25.628%{opacity:1;fill:#0e4429;transform:scale(1)}25.893%{opacity:1;fill:#ffffff;transform:scale(1.4)}26.777%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h36_4{0%,24.858%{opacity:1;fill:#0e4429;transform:scale(1)}25.124%{opacity:1;fill:#ffffff;transform:scale(1.4)}26.008%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h36_5{0%,24.089%{opacity:1;fill:#0e4429;transform:scale(1)}24.354%{opacity:1;fill:#ffffff;transform:scale(1.4)}25.238%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h36_6{0%,23.319%{opacity:1;fill:#0e4429;transform:scale(1)}23.584%{opacity:1;fill:#ffffff;transform:scale(1.4)}24.468%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h37_0{0%,32.27%{opacity:1;fill:#0e4429;transform:scale(1)}32.535%{opacity:1;fill:#ffffff;transform:scale(1.4)}33.419%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h37_1{0%,31.5%{opacity:1;fill:#0e4429;transform:scale(1)}31.765%{opacity:1;fill:#ffffff;transform:scale(1.4)}32.649%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h37_2{0%,30.73%{opacity:1;fill:#0e4429;transform:scale(1)}30.995%{opacity:1;fill:#ffffff;transform:scale(1.4)}31.88%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h37_3{0%,29.96%{opacity:1;fill:#0e4429;transform:scale(1)}30.226%{opacity:1;fill:#ffffff;transform:scale(1.4)}31.11%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h37_4{0%,29.191%{opacity:1;fill:#0e4429;transform:scale(1)}29.456%{opacity:1;fill:#ffffff;transform:scale(1.4)}30.34%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h37_5{0%,28.421%{opacity:1;fill:#0e4429;transform:scale(1)}28.686%{opacity:1;fill:#ffffff;transform:scale(1.4)}29.57%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h37_6{0%,27.651%{opacity:1;fill:#0e4429;transform:scale(1)}27.916%{opacity:1;fill:#ffffff;transform:scale(1.4)}28.801%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h38_0{0%,36.602%{opacity:1;fill:#0e4429;transform:scale(1)}36.867%{opacity:1;fill:#ffffff;transform:scale(1.4)}37.752%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h38_1{0%,35.832%{opacity:1;fill:#0e4429;transform:scale(1)}36.098%{opacity:1;fill:#ffffff;transform:scale(1.4)}36.982%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h38_2{0%,35.063%{opacity:1;fill:#0e4429;transform:scale(1)}35.328%{opacity:1;fill:#ffffff;transform:scale(1.4)}36.212%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h38_3{0%,34.293%{opacity:1;fill:#0e4429;transform:scale(1)}34.558%{opacity:1;fill:#ffffff;transform:scale(1.4)}35.442%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h38_4{0%,33.523%{opacity:1;fill:#0e4429;transform:scale(1)}33.788%{opacity:1;fill:#ffffff;transform:scale(1.4)}34.673%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h38_5{0%,32.753%{opacity:1;fill:#0e4429;transform:scale(1)}33.019%{opacity:1;fill:#ffffff;transform:scale(1.4)}33.903%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h38_6{0%,31.984%{opacity:1;fill:#0e4429;transform:scale(1)}32.249%{opacity:1;fill:#ffffff;transform:scale(1.4)}33.133%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h39_0{0%,40.935%{opacity:1;fill:#0e4429;transform:scale(1)}41.2%{opacity:1;fill:#ffffff;transform:scale(1.4)}42.084%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h39_1{0%,40.165%{opacity:1;fill:#0e4429;transform:scale(1)}40.43%{opacity:1;fill:#ffffff;transform:scale(1.4)}41.314%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h39_2{0%,39.395%{opacity:1;fill:#0e4429;transform:scale(1)}39.66%{opacity:1;fill:#ffffff;transform:scale(1.4)}40.545%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h39_3{0%,38.625%{opacity:1;fill:#0e4429;transform:scale(1)}38.891%{opacity:1;fill:#ffffff;transform:scale(1.4)}39.775%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h39_4{0%,37.856%{opacity:1;fill:#0e4429;transform:scale(1)}38.121%{opacity:1;fill:#ffffff;transform:scale(1.4)}39.005%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h39_5{0%,37.086%{opacity:1;fill:#0e4429;transform:scale(1)}37.351%{opacity:1;fill:#ffffff;transform:scale(1.4)}38.235%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h39_6{0%,36.316%{opacity:1;fill:#0e4429;transform:scale(1)}36.581%{opacity:1;fill:#ffffff;transform:scale(1.4)}37.466%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h40_0{0%,45.267%{opacity:1;fill:#0e4429;transform:scale(1)}45.532%{opacity:1;fill:#ffffff;transform:scale(1.4)}46.416%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h40_1{0%,44.497%{opacity:1;fill:#006d32;transform:scale(1)}44.763%{opacity:1;fill:#ffffff;transform:scale(1.4)}45.647%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h40_2{0%,43.728%{opacity:1;fill:#0e4429;transform:scale(1)}43.993%{opacity:1;fill:#ffffff;transform:scale(1.4)}44.877%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h40_3{0%,42.958%{opacity:1;fill:#0e4429;transform:scale(1)}43.223%{opacity:1;fill:#ffffff;transform:scale(1.4)}44.107%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h40_4{0%,42.188%{opacity:1;fill:#0e4429;transform:scale(1)}42.453%{opacity:1;fill:#ffffff;transform:scale(1.4)}43.337%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h40_5{0%,41.418%{opacity:1;fill:#006d32;transform:scale(1)}41.684%{opacity:1;fill:#ffffff;transform:scale(1.4)}42.568%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h40_6{0%,40.649%{opacity:1;fill:#0e4429;transform:scale(1)}40.914%{opacity:1;fill:#ffffff;transform:scale(1.4)}41.798%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h41_0{0%,49.6%{opacity:1;fill:#0e4429;transform:scale(1)}49.865%{opacity:1;fill:#ffffff;transform:scale(1.4)}50.749%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h41_1{0%,48.83%{opacity:1;fill:#0e4429;transform:scale(1)}49.095%{opacity:1;fill:#ffffff;transform:scale(1.4)}49.979%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h41_2{0%,48.06%{opacity:1;fill:#0e4429;transform:scale(1)}48.325%{opacity:1;fill:#ffffff;transform:scale(1.4)}49.209%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h41_3{0%,47.29%{opacity:1;fill:#0e4429;transform:scale(1)}47.556%{opacity:1;fill:#ffffff;transform:scale(1.4)}48.44%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h41_4{0%,46.521%{opacity:1;fill:#0e4429;transform:scale(1)}46.786%{opacity:1;fill:#ffffff;transform:scale(1.4)}47.67%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h41_5{0%,45.751%{opacity:1;fill:#006d32;transform:scale(1)}46.016%{opacity:1;fill:#ffffff;transform:scale(1.4)}46.9%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h41_6{0%,44.981%{opacity:1;fill:#0e4429;transform:scale(1)}45.246%{opacity:1;fill:#ffffff;transform:scale(1.4)}46.13%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h42_0{0%,53.932%{opacity:1;fill:#0e4429;transform:scale(1)}54.197%{opacity:1;fill:#ffffff;transform:scale(1.4)}55.081%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h42_1{0%,53.162%{opacity:1;fill:#0e4429;transform:scale(1)}53.427%{opacity:1;fill:#ffffff;transform:scale(1.4)}54.312%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h42_2{0%,52.392%{opacity:1;fill:#0e4429;transform:scale(1)}52.658%{opacity:1;fill:#ffffff;transform:scale(1.4)}53.542%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h42_3{0%,51.623%{opacity:1;fill:#0e4429;transform:scale(1)}51.888%{opacity:1;fill:#ffffff;transform:scale(1.4)}52.772%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h42_4{0%,50.853%{opacity:1;fill:#006d32;transform:scale(1)}51.118%{opacity:1;fill:#ffffff;transform:scale(1.4)}52.002%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h42_5{0%,50.083%{opacity:1;fill:#0e4429;transform:scale(1)}50.348%{opacity:1;fill:#ffffff;transform:scale(1.4)}51.233%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h42_6{0%,49.313%{opacity:1;fill:#0e4429;transform:scale(1)}49.579%{opacity:1;fill:#ffffff;transform:scale(1.4)}50.463%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h43_0{0%,58.264%{opacity:1;fill:#006d32;transform:scale(1)}58.53%{opacity:1;fill:#ffffff;transform:scale(1.4)}59.414%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h43_1{0%,57.495%{opacity:1;fill:#0e4429;transform:scale(1)}57.76%{opacity:1;fill:#ffffff;transform:scale(1.4)}58.644%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h43_2{0%,56.725%{opacity:1;fill:#0e4429;transform:scale(1)}56.99%{opacity:1;fill:#ffffff;transform:scale(1.4)}57.874%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h43_3{0%,55.955%{opacity:1;fill:#006d32;transform:scale(1)}56.22%{opacity:1;fill:#ffffff;transform:scale(1.4)}57.105%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h43_4{0%,55.185%{opacity:1;fill:#0e4429;transform:scale(1)}55.451%{opacity:1;fill:#ffffff;transform:scale(1.4)}56.335%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h43_5{0%,54.416%{opacity:1;fill:#0e4429;transform:scale(1)}54.681%{opacity:1;fill:#ffffff;transform:scale(1.4)}55.565%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h43_6{0%,53.646%{opacity:1;fill:#006d32;transform:scale(1)}53.911%{opacity:1;fill:#ffffff;transform:scale(1.4)}54.795%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h44_0{0%,62.597%{opacity:1;fill:#0e4429;transform:scale(1)}62.862%{opacity:1;fill:#ffffff;transform:scale(1.4)}63.746%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h44_1{0%,61.827%{opacity:1;fill:#0e4429;transform:scale(1)}62.092%{opacity:1;fill:#ffffff;transform:scale(1.4)}62.977%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h44_2{0%,61.057%{opacity:1;fill:#0e4429;transform:scale(1)}61.323%{opacity:1;fill:#ffffff;transform:scale(1.4)}62.207%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h44_3{0%,60.288%{opacity:1;fill:#0e4429;transform:scale(1)}60.553%{opacity:1;fill:#ffffff;transform:scale(1.4)}61.437%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h44_4{0%,59.518%{opacity:1;fill:#0e4429;transform:scale(1)}59.783%{opacity:1;fill:#ffffff;transform:scale(1.4)}60.667%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h44_5{0%,58.748%{opacity:1;fill:#0e4429;transform:scale(1)}59.013%{opacity:1;fill:#ffffff;transform:scale(1.4)}59.898%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h44_6{0%,57.978%{opacity:1;fill:#006d32;transform:scale(1)}58.244%{opacity:1;fill:#ffffff;transform:scale(1.4)}59.128%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h45_0{0%,66.929%{opacity:1;fill:#0e4429;transform:scale(1)}67.195%{opacity:1;fill:#ffffff;transform:scale(1.4)}68.079%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h45_1{0%,66.16%{opacity:1;fill:#0e4429;transform:scale(1)}66.425%{opacity:1;fill:#ffffff;transform:scale(1.4)}67.309%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h45_2{0%,65.39%{opacity:1;fill:#0e4429;transform:scale(1)}65.655%{opacity:1;fill:#ffffff;transform:scale(1.4)}66.539%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h45_3{0%,64.62%{opacity:1;fill:#0e4429;transform:scale(1)}64.885%{opacity:1;fill:#ffffff;transform:scale(1.4)}65.769%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h45_4{0%,63.85%{opacity:1;fill:#0e4429;transform:scale(1)}64.116%{opacity:1;fill:#ffffff;transform:scale(1.4)}65%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h45_5{0%,63.081%{opacity:1;fill:#0e4429;transform:scale(1)}63.346%{opacity:1;fill:#ffffff;transform:scale(1.4)}64.23%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h45_6{0%,62.311%{opacity:1;fill:#006d32;transform:scale(1)}62.576%{opacity:1;fill:#ffffff;transform:scale(1.4)}63.46%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h46_0{0%,71.262%{opacity:1;fill:#006d32;transform:scale(1)}71.527%{opacity:1;fill:#ffffff;transform:scale(1.4)}72.411%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h46_1{0%,70.492%{opacity:1;fill:#26a641;transform:scale(1)}70.757%{opacity:1;fill:#ffffff;transform:scale(1.4)}71.641%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h46_2{0%,69.722%{opacity:1;fill:#006d32;transform:scale(1)}69.988%{opacity:1;fill:#ffffff;transform:scale(1.4)}70.872%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h46_3{0%,68.953%{opacity:1;fill:#0e4429;transform:scale(1)}69.218%{opacity:1;fill:#ffffff;transform:scale(1.4)}70.102%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h46_4{0%,68.183%{opacity:1;fill:#006d32;transform:scale(1)}68.448%{opacity:1;fill:#ffffff;transform:scale(1.4)}69.332%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h46_5{0%,67.413%{opacity:1;fill:#39d353;transform:scale(1)}67.678%{opacity:1;fill:#ffffff;transform:scale(1.4)}68.562%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
+    @keyframes h46_6{0%,66.643%{opacity:1;fill:#006d32;transform:scale(1)}66.909%{opacity:1;fill:#ffffff;transform:scale(1.4)}67.793%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h47_0{0%,75.594%{opacity:1;fill:#0e4429;transform:scale(1)}75.859%{opacity:1;fill:#ffffff;transform:scale(1.4)}76.744%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h47_1{0%,74.824%{opacity:1;fill:#006d32;transform:scale(1)}75.09%{opacity:1;fill:#ffffff;transform:scale(1.4)}75.974%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h47_2{0%,74.055%{opacity:1;fill:#006d32;transform:scale(1)}74.32%{opacity:1;fill:#ffffff;transform:scale(1.4)}75.204%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h47_3{0%,73.285%{opacity:1;fill:#0e4429;transform:scale(1)}73.55%{opacity:1;fill:#ffffff;transform:scale(1.4)}74.434%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h47_4{0%,72.515%{opacity:1;fill:#0e4429;transform:scale(1)}72.78%{opacity:1;fill:#ffffff;transform:scale(1.4)}73.665%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h47_5{0%,71.745%{opacity:1;fill:#006d32;transform:scale(1)}72.011%{opacity:1;fill:#ffffff;transform:scale(1.4)}72.895%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h47_6{0%,70.976%{opacity:1;fill:#26a641;transform:scale(1)}71.241%{opacity:1;fill:#ffffff;transform:scale(1.4)}72.125%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h48_0{0%,79.927%{opacity:1;fill:#006d32;transform:scale(1)}80.192%{opacity:1;fill:#ffffff;transform:scale(1.4)}81.076%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h48_1{0%,79.157%{opacity:1;fill:#006d32;transform:scale(1)}79.422%{opacity:1;fill:#ffffff;transform:scale(1.4)}80.306%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h48_2{0%,78.387%{opacity:1;fill:#006d32;transform:scale(1)}78.652%{opacity:1;fill:#ffffff;transform:scale(1.4)}79.537%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h48_3{0%,77.617%{opacity:1;fill:#006d32;transform:scale(1)}77.883%{opacity:1;fill:#ffffff;transform:scale(1.4)}78.767%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h48_4{0%,76.848%{opacity:1;fill:#26a641;transform:scale(1)}77.113%{opacity:1;fill:#ffffff;transform:scale(1.4)}77.997%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h48_5{0%,76.078%{opacity:1;fill:#39d353;transform:scale(1)}76.343%{opacity:1;fill:#ffffff;transform:scale(1.4)}77.227%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
+    @keyframes h48_6{0%,75.308%{opacity:1;fill:#39d353;transform:scale(1)}75.573%{opacity:1;fill:#ffffff;transform:scale(1.4)}76.458%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#39d353;transform:scale(1)}}
+    @keyframes h49_0{0%,84.259%{opacity:1;fill:#26a641;transform:scale(1)}84.524%{opacity:1;fill:#ffffff;transform:scale(1.4)}85.409%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h49_1{0%,83.489%{opacity:1;fill:#26a641;transform:scale(1)}83.755%{opacity:1;fill:#ffffff;transform:scale(1.4)}84.639%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h49_2{0%,82.72%{opacity:1;fill:#26a641;transform:scale(1)}82.985%{opacity:1;fill:#ffffff;transform:scale(1.4)}83.869%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h49_3{0%,81.95%{opacity:1;fill:#26a641;transform:scale(1)}82.215%{opacity:1;fill:#ffffff;transform:scale(1.4)}83.099%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h49_4{0%,81.18%{opacity:1;fill:#26a641;transform:scale(1)}81.445%{opacity:1;fill:#ffffff;transform:scale(1.4)}82.33%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h49_5{0%,80.41%{opacity:1;fill:#26a641;transform:scale(1)}80.676%{opacity:1;fill:#ffffff;transform:scale(1.4)}81.56%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h49_6{0%,79.641%{opacity:1;fill:#26a641;transform:scale(1)}79.906%{opacity:1;fill:#ffffff;transform:scale(1.4)}80.79%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h50_0{0%,88.592%{opacity:1;fill:#26a641;transform:scale(1)}88.857%{opacity:1;fill:#ffffff;transform:scale(1.4)}89.741%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#26a641;transform:scale(1)}}
+    @keyframes h50_1{0%,87.822%{opacity:1;fill:#006d32;transform:scale(1)}88.087%{opacity:1;fill:#ffffff;transform:scale(1.4)}88.971%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h50_2{0%,87.052%{opacity:1;fill:#006d32;transform:scale(1)}87.317%{opacity:1;fill:#ffffff;transform:scale(1.4)}88.201%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h50_3{0%,86.282%{opacity:1;fill:#006d32;transform:scale(1)}86.548%{opacity:1;fill:#ffffff;transform:scale(1.4)}87.432%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h50_4{0%,85.513%{opacity:1;fill:#0e4429;transform:scale(1)}85.778%{opacity:1;fill:#ffffff;transform:scale(1.4)}86.662%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h50_5{0%,84.743%{opacity:1;fill:#0e4429;transform:scale(1)}85.008%{opacity:1;fill:#ffffff;transform:scale(1.4)}85.892%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h50_6{0%,83.973%{opacity:1;fill:#0e4429;transform:scale(1)}84.238%{opacity:1;fill:#ffffff;transform:scale(1.4)}85.122%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h51_0{0%,92.924%{opacity:1;fill:#006d32;transform:scale(1)}93.189%{opacity:1;fill:#ffffff;transform:scale(1.4)}94.073%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#006d32;transform:scale(1)}}
+    @keyframes h51_1{0%,92.154%{opacity:1;fill:#0e4429;transform:scale(1)}92.42%{opacity:1;fill:#ffffff;transform:scale(1.4)}93.304%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h51_2{0%,91.385%{opacity:1;fill:#0e4429;transform:scale(1)}91.65%{opacity:1;fill:#ffffff;transform:scale(1.4)}92.534%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h51_3{0%,90.615%{opacity:1;fill:#0e4429;transform:scale(1)}90.88%{opacity:1;fill:#ffffff;transform:scale(1.4)}91.764%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h51_4{0%,89.845%{opacity:1;fill:#0e4429;transform:scale(1)}90.11%{opacity:1;fill:#ffffff;transform:scale(1.4)}90.994%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h51_5{0%,89.075%{opacity:1;fill:#0e4429;transform:scale(1)}89.341%{opacity:1;fill:#ffffff;transform:scale(1.4)}90.225%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes h51_6{0%,88.306%{opacity:1;fill:#0e4429;transform:scale(1)}88.571%{opacity:1;fill:#ffffff;transform:scale(1.4)}89.455%,99.2%{opacity:0;fill:#ffffff;transform:scale(.2)}100%{opacity:1;fill:#0e4429;transform:scale(1)}}
+    @keyframes b4_4{0%,2.785%{opacity:0;transform:translateY(0)}2.851%{opacity:1}3.395%{opacity:1}3.461%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b23_6{0%,9.24%{opacity:0;transform:translateY(0)}9.306%{opacity:1}9.459%{opacity:1}9.526%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b23_5{0%,9.814%{opacity:0;transform:translateY(0)}9.881%{opacity:1}10.229%{opacity:1}10.295%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b25_1{0%,11.008%{opacity:0;transform:translateY(0)}11.074%{opacity:1}12.203%{opacity:1}12.269%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b31_3{0%,13.439%{opacity:0;transform:translateY(0)}13.506%{opacity:1}14.244%{opacity:1}14.311%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b31_2{0%,14.014%{opacity:0;transform:translateY(0)}14.08%{opacity:1}15.014%{opacity:1}15.08%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b31_1{0%,14.589%{opacity:0;transform:translateY(0)}14.655%{opacity:1}15.784%{opacity:1}15.85%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b32_4{0%,15.473%{opacity:0;transform:translateY(0)}15.539%{opacity:1}16.083%{opacity:1}16.149%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b32_2{0%,16.048%{opacity:0;transform:translateY(0)}16.114%{opacity:1}17.048%{opacity:1}17.114%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b32_0{0%,16.622%{opacity:0;transform:translateY(0)}16.689%{opacity:1}18.012%{opacity:1}18.079%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b34_6{0%,17.816%{opacity:0;transform:translateY(0)}17.882%{opacity:1}18.036%{opacity:1}18.102%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b35_6{0%,18.7%{opacity:0;transform:translateY(0)}18.767%{opacity:1}18.92%{opacity:1}18.986%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b35_5{0%,19.275%{opacity:0;transform:translateY(0)}19.341%{opacity:1}19.69%{opacity:1}19.756%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b35_4{0%,19.85%{opacity:0;transform:translateY(0)}19.916%{opacity:1}20.46%{opacity:1}20.526%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b35_3{0%,20.424%{opacity:0;transform:translateY(0)}20.491%{opacity:1}21.229%{opacity:1}21.296%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b35_2{0%,20.999%{opacity:0;transform:translateY(0)}21.065%{opacity:1}21.999%{opacity:1}22.065%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b35_1{0%,21.574%{opacity:0;transform:translateY(0)}21.64%{opacity:1}22.769%{opacity:1}22.835%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b35_0{0%,22.149%{opacity:0;transform:translateY(0)}22.215%{opacity:1}23.539%{opacity:1}23.605%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b36_6{0%,23.033%{opacity:0;transform:translateY(0)}23.099%{opacity:1}23.252%{opacity:1}23.319%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b36_5{0%,23.607%{opacity:0;transform:translateY(0)}23.674%{opacity:1}24.022%{opacity:1}24.089%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b36_4{0%,24.182%{opacity:0;transform:translateY(0)}24.248%{opacity:1}24.792%{opacity:1}24.858%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b36_3{0%,24.757%{opacity:0;transform:translateY(0)}24.823%{opacity:1}25.562%{opacity:1}25.628%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b36_2{0%,25.332%{opacity:0;transform:translateY(0)}25.398%{opacity:1}26.331%{opacity:1}26.398%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b36_1{0%,25.906%{opacity:0;transform:translateY(0)}25.973%{opacity:1}27.101%{opacity:1}27.168%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b36_0{0%,26.481%{opacity:0;transform:translateY(0)}26.547%{opacity:1}27.871%{opacity:1}27.937%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b37_6{0%,27.365%{opacity:0;transform:translateY(0)}27.431%{opacity:1}27.585%{opacity:1}27.651%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b37_5{0%,27.94%{opacity:0;transform:translateY(0)}28.006%{opacity:1}28.355%{opacity:1}28.421%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b37_4{0%,28.515%{opacity:0;transform:translateY(0)}28.581%{opacity:1}29.124%{opacity:1}29.191%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b37_3{0%,29.089%{opacity:0;transform:translateY(0)}29.156%{opacity:1}29.894%{opacity:1}29.96%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b37_2{0%,29.664%{opacity:0;transform:translateY(0)}29.73%{opacity:1}30.664%{opacity:1}30.73%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b37_1{0%,30.239%{opacity:0;transform:translateY(0)}30.305%{opacity:1}31.434%{opacity:1}31.5%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b37_0{0%,30.813%{opacity:0;transform:translateY(0)}30.88%{opacity:1}32.203%{opacity:1}32.27%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b38_6{0%,31.698%{opacity:0;transform:translateY(0)}31.764%{opacity:1}31.917%{opacity:1}31.984%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b38_5{0%,32.272%{opacity:0;transform:translateY(0)}32.339%{opacity:1}32.687%{opacity:1}32.753%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b38_4{0%,32.847%{opacity:0;transform:translateY(0)}32.913%{opacity:1}33.457%{opacity:1}33.523%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b38_3{0%,33.422%{opacity:0;transform:translateY(0)}33.488%{opacity:1}34.227%{opacity:1}34.293%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b38_2{0%,33.996%{opacity:0;transform:translateY(0)}34.063%{opacity:1}34.996%{opacity:1}35.063%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b38_1{0%,34.571%{opacity:0;transform:translateY(0)}34.637%{opacity:1}35.766%{opacity:1}35.832%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b38_0{0%,35.146%{opacity:0;transform:translateY(0)}35.212%{opacity:1}36.536%{opacity:1}36.602%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b39_6{0%,36.03%{opacity:0;transform:translateY(0)}36.096%{opacity:1}36.25%{opacity:1}36.316%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b39_5{0%,36.605%{opacity:0;transform:translateY(0)}36.671%{opacity:1}37.02%{opacity:1}37.086%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b39_4{0%,37.179%{opacity:0;transform:translateY(0)}37.246%{opacity:1}37.789%{opacity:1}37.856%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b39_3{0%,37.754%{opacity:0;transform:translateY(0)}37.821%{opacity:1}38.559%{opacity:1}38.625%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b39_2{0%,38.329%{opacity:0;transform:translateY(0)}38.395%{opacity:1}39.329%{opacity:1}39.395%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b39_1{0%,38.904%{opacity:0;transform:translateY(0)}38.97%{opacity:1}40.099%{opacity:1}40.165%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b39_0{0%,39.478%{opacity:0;transform:translateY(0)}39.545%{opacity:1}40.868%{opacity:1}40.935%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b40_6{0%,40.363%{opacity:0;transform:translateY(0)}40.429%{opacity:1}40.582%{opacity:1}40.649%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b40_5{0%,40.937%{opacity:0;transform:translateY(0)}41.004%{opacity:1}41.352%{opacity:1}41.418%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b40_4{0%,41.512%{opacity:0;transform:translateY(0)}41.578%{opacity:1}42.122%{opacity:1}42.188%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b40_3{0%,42.087%{opacity:0;transform:translateY(0)}42.153%{opacity:1}42.892%{opacity:1}42.958%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b40_2{0%,42.661%{opacity:0;transform:translateY(0)}42.728%{opacity:1}43.661%{opacity:1}43.728%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b40_1{0%,43.236%{opacity:0;transform:translateY(0)}43.302%{opacity:1}44.431%{opacity:1}44.497%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b40_0{0%,43.811%{opacity:0;transform:translateY(0)}43.877%{opacity:1}45.201%{opacity:1}45.267%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b41_6{0%,44.695%{opacity:0;transform:translateY(0)}44.761%{opacity:1}44.915%{opacity:1}44.981%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b41_5{0%,45.27%{opacity:0;transform:translateY(0)}45.336%{opacity:1}45.684%{opacity:1}45.751%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b41_4{0%,45.844%{opacity:0;transform:translateY(0)}45.911%{opacity:1}46.454%{opacity:1}46.521%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b41_3{0%,46.419%{opacity:0;transform:translateY(0)}46.485%{opacity:1}47.224%{opacity:1}47.29%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b41_2{0%,46.994%{opacity:0;transform:translateY(0)}47.06%{opacity:1}47.994%{opacity:1}48.06%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b41_1{0%,47.569%{opacity:0;transform:translateY(0)}47.635%{opacity:1}48.763%{opacity:1}48.83%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b41_0{0%,48.143%{opacity:0;transform:translateY(0)}48.21%{opacity:1}49.533%{opacity:1}49.6%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b42_6{0%,49.027%{opacity:0;transform:translateY(0)}49.094%{opacity:1}49.247%{opacity:1}49.313%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b42_5{0%,49.602%{opacity:0;transform:translateY(0)}49.668%{opacity:1}50.017%{opacity:1}50.083%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b42_4{0%,50.177%{opacity:0;transform:translateY(0)}50.243%{opacity:1}50.787%{opacity:1}50.853%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b42_3{0%,50.752%{opacity:0;transform:translateY(0)}50.818%{opacity:1}51.556%{opacity:1}51.623%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b42_2{0%,51.326%{opacity:0;transform:translateY(0)}51.393%{opacity:1}52.326%{opacity:1}52.392%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b42_1{0%,51.901%{opacity:0;transform:translateY(0)}51.967%{opacity:1}53.096%{opacity:1}53.162%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b42_0{0%,52.476%{opacity:0;transform:translateY(0)}52.542%{opacity:1}53.866%{opacity:1}53.932%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b43_6{0%,53.36%{opacity:0;transform:translateY(0)}53.426%{opacity:1}53.58%{opacity:1}53.646%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b43_5{0%,53.935%{opacity:0;transform:translateY(0)}54.001%{opacity:1}54.349%{opacity:1}54.416%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b43_4{0%,54.509%{opacity:0;transform:translateY(0)}54.576%{opacity:1}55.119%{opacity:1}55.185%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b43_3{0%,55.084%{opacity:0;transform:translateY(0)}55.15%{opacity:1}55.889%{opacity:1}55.955%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b43_2{0%,55.659%{opacity:0;transform:translateY(0)}55.725%{opacity:1}56.659%{opacity:1}56.725%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b43_1{0%,56.233%{opacity:0;transform:translateY(0)}56.3%{opacity:1}57.428%{opacity:1}57.495%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b43_0{0%,56.808%{opacity:0;transform:translateY(0)}56.874%{opacity:1}58.198%{opacity:1}58.264%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b44_6{0%,57.692%{opacity:0;transform:translateY(0)}57.759%{opacity:1}57.912%{opacity:1}57.978%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b44_5{0%,58.267%{opacity:0;transform:translateY(0)}58.333%{opacity:1}58.682%{opacity:1}58.748%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b44_4{0%,58.842%{opacity:0;transform:translateY(0)}58.908%{opacity:1}59.452%{opacity:1}59.518%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b44_3{0%,59.416%{opacity:0;transform:translateY(0)}59.483%{opacity:1}60.221%{opacity:1}60.288%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b44_2{0%,59.991%{opacity:0;transform:translateY(0)}60.057%{opacity:1}60.991%{opacity:1}61.057%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b44_1{0%,60.566%{opacity:0;transform:translateY(0)}60.632%{opacity:1}61.761%{opacity:1}61.827%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b44_0{0%,61.141%{opacity:0;transform:translateY(0)}61.207%{opacity:1}62.531%{opacity:1}62.597%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b45_6{0%,62.025%{opacity:0;transform:translateY(0)}62.091%{opacity:1}62.244%{opacity:1}62.311%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b45_5{0%,62.599%{opacity:0;transform:translateY(0)}62.666%{opacity:1}63.014%{opacity:1}63.081%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b45_4{0%,63.174%{opacity:0;transform:translateY(0)}63.24%{opacity:1}63.784%{opacity:1}63.85%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b45_3{0%,63.749%{opacity:0;transform:translateY(0)}63.815%{opacity:1}64.554%{opacity:1}64.62%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b45_2{0%,64.324%{opacity:0;transform:translateY(0)}64.39%{opacity:1}65.324%{opacity:1}65.39%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b45_1{0%,64.898%{opacity:0;transform:translateY(0)}64.965%{opacity:1}66.093%{opacity:1}66.16%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b45_0{0%,65.473%{opacity:0;transform:translateY(0)}65.539%{opacity:1}66.863%{opacity:1}66.929%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b46_6{0%,66.357%{opacity:0;transform:translateY(0)}66.424%{opacity:1}66.577%{opacity:1}66.643%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b46_5{0%,66.932%{opacity:0;transform:translateY(0)}66.998%{opacity:1}67.347%{opacity:1}67.413%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b46_4{0%,67.507%{opacity:0;transform:translateY(0)}67.573%{opacity:1}68.116%{opacity:1}68.183%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b46_3{0%,68.081%{opacity:0;transform:translateY(0)}68.148%{opacity:1}68.886%{opacity:1}68.953%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b46_2{0%,68.656%{opacity:0;transform:translateY(0)}68.722%{opacity:1}69.656%{opacity:1}69.722%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b46_1{0%,69.231%{opacity:0;transform:translateY(0)}69.297%{opacity:1}70.426%{opacity:1}70.492%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b46_0{0%,69.805%{opacity:0;transform:translateY(0)}69.872%{opacity:1}71.195%{opacity:1}71.262%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b47_6{0%,70.69%{opacity:0;transform:translateY(0)}70.756%{opacity:1}70.909%{opacity:1}70.976%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b47_5{0%,71.264%{opacity:0;transform:translateY(0)}71.331%{opacity:1}71.679%{opacity:1}71.745%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b47_4{0%,71.839%{opacity:0;transform:translateY(0)}71.905%{opacity:1}72.449%{opacity:1}72.515%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b47_3{0%,72.414%{opacity:0;transform:translateY(0)}72.48%{opacity:1}73.219%{opacity:1}73.285%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b47_2{0%,72.989%{opacity:0;transform:translateY(0)}73.055%{opacity:1}73.988%{opacity:1}74.055%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b47_1{0%,73.563%{opacity:0;transform:translateY(0)}73.63%{opacity:1}74.758%{opacity:1}74.824%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b47_0{0%,74.138%{opacity:0;transform:translateY(0)}74.204%{opacity:1}75.528%{opacity:1}75.594%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b48_6{0%,75.022%{opacity:0;transform:translateY(0)}75.088%{opacity:1}75.242%{opacity:1}75.308%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b48_5{0%,75.597%{opacity:0;transform:translateY(0)}75.663%{opacity:1}76.012%{opacity:1}76.078%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b48_4{0%,76.172%{opacity:0;transform:translateY(0)}76.238%{opacity:1}76.781%{opacity:1}76.848%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b48_3{0%,76.746%{opacity:0;transform:translateY(0)}76.813%{opacity:1}77.551%{opacity:1}77.617%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b48_2{0%,77.321%{opacity:0;transform:translateY(0)}77.387%{opacity:1}78.321%{opacity:1}78.387%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b48_1{0%,77.896%{opacity:0;transform:translateY(0)}77.962%{opacity:1}79.091%{opacity:1}79.157%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b48_0{0%,78.47%{opacity:0;transform:translateY(0)}78.537%{opacity:1}79.86%{opacity:1}79.927%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b49_6{0%,79.355%{opacity:0;transform:translateY(0)}79.421%{opacity:1}79.574%{opacity:1}79.641%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b49_5{0%,79.929%{opacity:0;transform:translateY(0)}79.996%{opacity:1}80.344%{opacity:1}80.41%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b49_4{0%,80.504%{opacity:0;transform:translateY(0)}80.57%{opacity:1}81.114%{opacity:1}81.18%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b49_3{0%,81.079%{opacity:0;transform:translateY(0)}81.145%{opacity:1}81.884%{opacity:1}81.95%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b49_2{0%,81.653%{opacity:0;transform:translateY(0)}81.72%{opacity:1}82.653%{opacity:1}82.72%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b49_1{0%,82.228%{opacity:0;transform:translateY(0)}82.294%{opacity:1}83.423%{opacity:1}83.489%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b49_0{0%,82.803%{opacity:0;transform:translateY(0)}82.869%{opacity:1}84.193%{opacity:1}84.259%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b50_6{0%,83.687%{opacity:0;transform:translateY(0)}83.753%{opacity:1}83.907%{opacity:1}83.973%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b50_5{0%,84.262%{opacity:0;transform:translateY(0)}84.328%{opacity:1}84.676%{opacity:1}84.743%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b50_4{0%,84.836%{opacity:0;transform:translateY(0)}84.903%{opacity:1}85.446%{opacity:1}85.513%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b50_3{0%,85.411%{opacity:0;transform:translateY(0)}85.477%{opacity:1}86.216%{opacity:1}86.282%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b50_2{0%,85.986%{opacity:0;transform:translateY(0)}86.052%{opacity:1}86.986%{opacity:1}87.052%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b50_1{0%,86.561%{opacity:0;transform:translateY(0)}86.627%{opacity:1}87.756%{opacity:1}87.822%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b50_0{0%,87.135%{opacity:0;transform:translateY(0)}87.202%{opacity:1}88.525%{opacity:1}88.592%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes b51_6{0%,88.019%{opacity:0;transform:translateY(0)}88.086%{opacity:1}88.239%{opacity:1}88.306%,100%{opacity:0;transform:translateY(-22px)}}
+    @keyframes b51_5{0%,88.594%{opacity:0;transform:translateY(0)}88.66%{opacity:1}89.009%{opacity:1}89.075%,100%{opacity:0;transform:translateY(-37px)}}
+    @keyframes b51_4{0%,89.169%{opacity:0;transform:translateY(0)}89.235%{opacity:1}89.779%{opacity:1}89.845%,100%{opacity:0;transform:translateY(-52px)}}
+    @keyframes b51_3{0%,89.744%{opacity:0;transform:translateY(0)}89.81%{opacity:1}90.548%{opacity:1}90.615%,100%{opacity:0;transform:translateY(-67px)}}
+    @keyframes b51_2{0%,90.318%{opacity:0;transform:translateY(0)}90.385%{opacity:1}91.318%{opacity:1}91.385%,100%{opacity:0;transform:translateY(-82px)}}
+    @keyframes b51_1{0%,90.893%{opacity:0;transform:translateY(0)}90.959%{opacity:1}92.088%{opacity:1}92.154%,100%{opacity:0;transform:translateY(-97px)}}
+    @keyframes b51_0{0%,91.468%{opacity:0;transform:translateY(0)}91.534%{opacity:1}92.858%{opacity:1}92.924%,100%{opacity:0;transform:translateY(-112px)}}
+    @keyframes fly{0%{transform:translateX(6px);opacity:0}1.083%{opacity:1}1.547%{transform:translateX(6px)}1.857%{transform:translateX(21px)}2.166%{transform:translateX(36px)}2.476%{transform:translateX(51px)}2.785%{transform:translateX(66px)}3.36%{transform:translateX(66px)}3.669%{transform:translateX(81px)}3.979%{transform:translateX(96px)}4.288%{transform:translateX(111px)}4.598%{transform:translateX(126px)}4.907%{transform:translateX(141px)}5.217%{transform:translateX(156px)}5.526%{transform:translateX(171px)}5.836%{transform:translateX(186px)}6.145%{transform:translateX(201px)}6.454%{transform:translateX(216px)}6.764%{transform:translateX(231px)}7.073%{transform:translateX(246px)}7.383%{transform:translateX(261px)}7.692%{transform:translateX(276px)}8.002%{transform:translateX(291px)}8.311%{transform:translateX(306px)}8.621%{transform:translateX(321px)}8.93%{transform:translateX(336px)}9.24%{transform:translateX(351px)}10.389%{transform:translateX(351px)}10.698%{transform:translateX(366px)}11.008%{transform:translateX(381px)}11.583%{transform:translateX(381px)}11.892%{transform:translateX(396px)}12.202%{transform:translateX(411px)}12.511%{transform:translateX(426px)}12.821%{transform:translateX(441px)}13.13%{transform:translateX(456px)}13.439%{transform:translateX(471px)}15.164%{transform:translateX(471px)}15.473%{transform:translateX(486px)}17.197%{transform:translateX(486px)}17.507%{transform:translateX(501px)}17.816%{transform:translateX(516px)}18.391%{transform:translateX(516px)}18.7%{transform:translateX(531px)}22.723%{transform:translateX(531px)}23.033%{transform:translateX(546px)}27.056%{transform:translateX(546px)}27.365%{transform:translateX(561px)}31.388%{transform:translateX(561px)}31.698%{transform:translateX(576px)}35.721%{transform:translateX(576px)}36.03%{transform:translateX(591px)}40.053%{transform:translateX(591px)}40.363%{transform:translateX(606px)}44.385%{transform:translateX(606px)}44.695%{transform:translateX(621px)}48.718%{transform:translateX(621px)}49.027%{transform:translateX(636px)}53.05%{transform:translateX(636px)}53.36%{transform:translateX(651px)}57.383%{transform:translateX(651px)}57.692%{transform:translateX(666px)}61.715%{transform:translateX(666px)}62.025%{transform:translateX(681px)}66.048%{transform:translateX(681px)}66.357%{transform:translateX(696px)}70.38%{transform:translateX(696px)}70.69%{transform:translateX(711px)}74.713%{transform:translateX(711px)}75.022%{transform:translateX(726px)}79.045%{transform:translateX(726px)}79.355%{transform:translateX(741px)}83.378%{transform:translateX(741px)}83.687%{transform:translateX(756px)}87.71%{transform:translateX(756px)}88.019%{transform:translateX(771px)}92.042%{transform:translateX(771px)}92.352%{transform:translateX(786px)}96.903%,100%{transform:translateX(876px);opacity:0}}
+    .h4_4{animation-name:h4_4}.h23_5{animation-name:h23_5}.h23_6{animation-name:h23_6}.h25_1{animation-name:h25_1}.h31_1{animation-name:h31_1}.h31_2{animation-name:h31_2}.h31_3{animation-name:h31_3}.h32_0{animation-name:h32_0}.h32_2{animation-name:h32_2}.h32_4{animation-name:h32_4}.h34_6{animation-name:h34_6}.h35_0{animation-name:h35_0}.h35_1{animation-name:h35_1}.h35_2{animation-name:h35_2}.h35_3{animation-name:h35_3}.h35_4{animation-name:h35_4}.h35_5{animation-name:h35_5}.h35_6{animation-name:h35_6}.h36_0{animation-name:h36_0}.h36_1{animation-name:h36_1}.h36_2{animation-name:h36_2}.h36_3{animation-name:h36_3}.h36_4{animation-name:h36_4}.h36_5{animation-name:h36_5}.h36_6{animation-name:h36_6}.h37_0{animation-name:h37_0}.h37_1{animation-name:h37_1}.h37_2{animation-name:h37_2}.h37_3{animation-name:h37_3}.h37_4{animation-name:h37_4}.h37_5{animation-name:h37_5}.h37_6{animation-name:h37_6}.h38_0{animation-name:h38_0}.h38_1{animation-name:h38_1}.h38_2{animation-name:h38_2}.h38_3{animation-name:h38_3}.h38_4{animation-name:h38_4}.h38_5{animation-name:h38_5}.h38_6{animation-name:h38_6}.h39_0{animation-name:h39_0}.h39_1{animation-name:h39_1}.h39_2{animation-name:h39_2}.h39_3{animation-name:h39_3}.h39_4{animation-name:h39_4}.h39_5{animation-name:h39_5}.h39_6{animation-name:h39_6}.h40_0{animation-name:h40_0}.h40_1{animation-name:h40_1}.h40_2{animation-name:h40_2}.h40_3{animation-name:h40_3}.h40_4{animation-name:h40_4}.h40_5{animation-name:h40_5}.h40_6{animation-name:h40_6}.h41_0{animation-name:h41_0}.h41_1{animation-name:h41_1}.h41_2{animation-name:h41_2}.h41_3{animation-name:h41_3}.h41_4{animation-name:h41_4}.h41_5{animation-name:h41_5}.h41_6{animation-name:h41_6}.h42_0{animation-name:h42_0}.h42_1{animation-name:h42_1}.h42_2{animation-name:h42_2}.h42_3{animation-name:h42_3}.h42_4{animation-name:h42_4}.h42_5{animation-name:h42_5}.h42_6{animation-name:h42_6}.h43_0{animation-name:h43_0}.h43_1{animation-name:h43_1}.h43_2{animation-name:h43_2}.h43_3{animation-name:h43_3}.h43_4{animation-name:h43_4}.h43_5{animation-name:h43_5}.h43_6{animation-name:h43_6}.h44_0{animation-name:h44_0}.h44_1{animation-name:h44_1}.h44_2{animation-name:h44_2}.h44_3{animation-name:h44_3}.h44_4{animation-name:h44_4}.h44_5{animation-name:h44_5}.h44_6{animation-name:h44_6}.h45_0{animation-name:h45_0}.h45_1{animation-name:h45_1}.h45_2{animation-name:h45_2}.h45_3{animation-name:h45_3}.h45_4{animation-name:h45_4}.h45_5{animation-name:h45_5}.h45_6{animation-name:h45_6}.h46_0{animation-name:h46_0}.h46_1{animation-name:h46_1}.h46_2{animation-name:h46_2}.h46_3{animation-name:h46_3}.h46_4{animation-name:h46_4}.h46_5{animation-name:h46_5}.h46_6{animation-name:h46_6}.h47_0{animation-name:h47_0}.h47_1{animation-name:h47_1}.h47_2{animation-name:h47_2}.h47_3{animation-name:h47_3}.h47_4{animation-name:h47_4}.h47_5{animation-name:h47_5}.h47_6{animation-name:h47_6}.h48_0{animation-name:h48_0}.h48_1{animation-name:h48_1}.h48_2{animation-name:h48_2}.h48_3{animation-name:h48_3}.h48_4{animation-name:h48_4}.h48_5{animation-name:h48_5}.h48_6{animation-name:h48_6}.h49_0{animation-name:h49_0}.h49_1{animation-name:h49_1}.h49_2{animation-name:h49_2}.h49_3{animation-name:h49_3}.h49_4{animation-name:h49_4}.h49_5{animation-name:h49_5}.h49_6{animation-name:h49_6}.h50_0{animation-name:h50_0}.h50_1{animation-name:h50_1}.h50_2{animation-name:h50_2}.h50_3{animation-name:h50_3}.h50_4{animation-name:h50_4}.h50_5{animation-name:h50_5}.h50_6{animation-name:h50_6}.h51_0{animation-name:h51_0}.h51_1{animation-name:h51_1}.h51_2{animation-name:h51_2}.h51_3{animation-name:h51_3}.h51_4{animation-name:h51_4}.h51_5{animation-name:h51_5}.h51_6{animation-name:h51_6}.b4_4{animation-name:b4_4}.b23_6{animation-name:b23_6}.b23_5{animation-name:b23_5}.b25_1{animation-name:b25_1}.b31_3{animation-name:b31_3}.b31_2{animation-name:b31_2}.b31_1{animation-name:b31_1}.b32_4{animation-name:b32_4}.b32_2{animation-name:b32_2}.b32_0{animation-name:b32_0}.b34_6{animation-name:b34_6}.b35_6{animation-name:b35_6}.b35_5{animation-name:b35_5}.b35_4{animation-name:b35_4}.b35_3{animation-name:b35_3}.b35_2{animation-name:b35_2}.b35_1{animation-name:b35_1}.b35_0{animation-name:b35_0}.b36_6{animation-name:b36_6}.b36_5{animation-name:b36_5}.b36_4{animation-name:b36_4}.b36_3{animation-name:b36_3}.b36_2{animation-name:b36_2}.b36_1{animation-name:b36_1}.b36_0{animation-name:b36_0}.b37_6{animation-name:b37_6}.b37_5{animation-name:b37_5}.b37_4{animation-name:b37_4}.b37_3{animation-name:b37_3}.b37_2{animation-name:b37_2}.b37_1{animation-name:b37_1}.b37_0{animation-name:b37_0}.b38_6{animation-name:b38_6}.b38_5{animation-name:b38_5}.b38_4{animation-name:b38_4}.b38_3{animation-name:b38_3}.b38_2{animation-name:b38_2}.b38_1{animation-name:b38_1}.b38_0{animation-name:b38_0}.b39_6{animation-name:b39_6}.b39_5{animation-name:b39_5}.b39_4{animation-name:b39_4}.b39_3{animation-name:b39_3}.b39_2{animation-name:b39_2}.b39_1{animation-name:b39_1}.b39_0{animation-name:b39_0}.b40_6{animation-name:b40_6}.b40_5{animation-name:b40_5}.b40_4{animation-name:b40_4}.b40_3{animation-name:b40_3}.b40_2{animation-name:b40_2}.b40_1{animation-name:b40_1}.b40_0{animation-name:b40_0}.b41_6{animation-name:b41_6}.b41_5{animation-name:b41_5}.b41_4{animation-name:b41_4}.b41_3{animation-name:b41_3}.b41_2{animation-name:b41_2}.b41_1{animation-name:b41_1}.b41_0{animation-name:b41_0}.b42_6{animation-name:b42_6}.b42_5{animation-name:b42_5}.b42_4{animation-name:b42_4}.b42_3{animation-name:b42_3}.b42_2{animation-name:b42_2}.b42_1{animation-name:b42_1}.b42_0{animation-name:b42_0}.b43_6{animation-name:b43_6}.b43_5{animation-name:b43_5}.b43_4{animation-name:b43_4}.b43_3{animation-name:b43_3}.b43_2{animation-name:b43_2}.b43_1{animation-name:b43_1}.b43_0{animation-name:b43_0}.b44_6{animation-name:b44_6}.b44_5{animation-name:b44_5}.b44_4{animation-name:b44_4}.b44_3{animation-name:b44_3}.b44_2{animation-name:b44_2}.b44_1{animation-name:b44_1}.b44_0{animation-name:b44_0}.b45_6{animation-name:b45_6}.b45_5{animation-name:b45_5}.b45_4{animation-name:b45_4}.b45_3{animation-name:b45_3}.b45_2{animation-name:b45_2}.b45_1{animation-name:b45_1}.b45_0{animation-name:b45_0}.b46_6{animation-name:b46_6}.b46_5{animation-name:b46_5}.b46_4{animation-name:b46_4}.b46_3{animation-name:b46_3}.b46_2{animation-name:b46_2}.b46_1{animation-name:b46_1}.b46_0{animation-name:b46_0}.b47_6{animation-name:b47_6}.b47_5{animation-name:b47_5}.b47_4{animation-name:b47_4}.b47_3{animation-name:b47_3}.b47_2{animation-name:b47_2}.b47_1{animation-name:b47_1}.b47_0{animation-name:b47_0}.b48_6{animation-name:b48_6}.b48_5{animation-name:b48_5}.b48_4{animation-name:b48_4}.b48_3{animation-name:b48_3}.b48_2{animation-name:b48_2}.b48_1{animation-name:b48_1}.b48_0{animation-name:b48_0}.b49_6{animation-name:b49_6}.b49_5{animation-name:b49_5}.b49_4{animation-name:b49_4}.b49_3{animation-name:b49_3}.b49_2{animation-name:b49_2}.b49_1{animation-name:b49_1}.b49_0{animation-name:b49_0}.b50_6{animation-name:b50_6}.b50_5{animation-name:b50_5}.b50_4{animation-name:b50_4}.b50_3{animation-name:b50_3}.b50_2{animation-name:b50_2}.b50_1{animation-name:b50_1}.b50_0{animation-name:b50_0}.b51_6{animation-name:b51_6}.b51_5{animation-name:b51_5}.b51_4{animation-name:b51_4}.b51_3{animation-name:b51_3}.b51_2{animation-name:b51_2}.b51_1{animation-name:b51_1}.b51_0{animation-name:b51_0}
   </style>
   <rect width="828" height="178" rx="10" fill="#0d1117" stroke="#21262d"/>
   <g transform="translate(18 14)">
@@ -312,14 +312,14 @@
     <rect class="cell" x="60" y="15" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="60" y="30" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="60" y="45" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="60" y="60" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell hit h4_4" x="60" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell" x="60" y="75" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="60" y="90" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="75" y="0" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="75" y="15" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="75" y="30" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="75" y="45" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h5_4" x="75" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="75" y="60" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="75" y="75" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="75" y="90" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="90" y="0" width="12" height="12" rx="3" fill="#161b22"/>
@@ -446,24 +446,24 @@
     <rect class="cell" x="345" y="30" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="345" y="45" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="345" y="60" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="345" y="75" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="345" y="90" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell hit h23_5" x="345" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h23_6" x="345" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell" x="360" y="0" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="360" y="15" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="360" y="30" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="360" y="45" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="360" y="60" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h24_5" x="360" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h24_6" x="360" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="360" y="75" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell" x="360" y="90" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="375" y="0" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="375" y="15" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell hit h25_1" x="375" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell" x="375" y="30" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="375" y="45" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="375" y="60" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="375" y="75" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="375" y="90" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="390" y="0" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h26_1" x="390" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="390" y="15" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="390" y="30" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="390" y="45" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="390" y="60" width="12" height="12" rx="3" fill="#161b22"/>
@@ -498,24 +498,24 @@
     <rect class="cell" x="450" y="75" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="450" y="90" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="465" y="0" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="465" y="15" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="465" y="30" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="465" y="45" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell hit h31_1" x="465" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h31_2" x="465" y="30" width="12" height="12" rx="3" fill="#39d353"/>
+    <rect class="cell hit h31_3" x="465" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell" x="465" y="60" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="465" y="75" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="465" y="90" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="480" y="0" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h32_1" x="480" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h32_2" x="480" y="30" width="12" height="12" rx="3" fill="#39d353"/>
-    <rect class="cell hit h32_3" x="480" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell" x="480" y="60" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell hit h32_0" x="480" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="480" y="15" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell hit h32_2" x="480" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="480" y="45" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell hit h32_4" x="480" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell" x="480" y="75" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="480" y="90" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h33_0" x="495" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="495" y="0" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="495" y="15" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h33_2" x="495" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="495" y="30" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="495" y="45" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h33_4" x="495" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell" x="495" y="60" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="495" y="75" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="495" y="90" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="510" y="0" width="12" height="12" rx="3" fill="#161b22"/>
@@ -524,23 +524,23 @@
     <rect class="cell" x="510" y="45" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="510" y="60" width="12" height="12" rx="3" fill="#161b22"/>
     <rect class="cell" x="510" y="75" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="510" y="90" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="525" y="0" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="525" y="15" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="525" y="30" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="525" y="45" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="525" y="60" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell" x="525" y="75" width="12" height="12" rx="3" fill="#161b22"/>
-    <rect class="cell hit h35_6" x="525" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h34_6" x="510" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h35_0" x="525" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h35_1" x="525" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h35_2" x="525" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h35_3" x="525" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h35_4" x="525" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h35_5" x="525" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h35_6" x="525" y="90" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h36_0" x="540" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h36_1" x="540" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h36_1" x="540" y="15" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h36_2" x="540" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h36_3" x="540" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h36_4" x="540" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h36_5" x="540" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h36_6" x="540" y="90" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h36_6" x="540" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h37_0" x="555" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h37_1" x="555" y="15" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h37_1" x="555" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h37_2" x="555" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h37_3" x="555" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h37_4" x="555" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
@@ -561,14 +561,14 @@
     <rect class="cell hit h39_5" x="585" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h39_6" x="585" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h40_0" x="600" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h40_1" x="600" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h40_1" x="600" y="15" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h40_2" x="600" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h40_3" x="600" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h40_4" x="600" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h40_5" x="600" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h40_5" x="600" y="75" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h40_6" x="600" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h41_0" x="615" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h41_1" x="615" y="15" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h41_1" x="615" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h41_2" x="615" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h41_3" x="615" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h41_4" x="615" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
@@ -578,20 +578,20 @@
     <rect class="cell hit h42_1" x="630" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h42_2" x="630" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h42_3" x="630" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h42_4" x="630" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h42_5" x="630" y="75" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h42_4" x="630" y="60" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h42_5" x="630" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h42_6" x="630" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h43_0" x="645" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h43_0" x="645" y="0" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h43_1" x="645" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h43_2" x="645" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h43_3" x="645" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h43_4" x="645" y="60" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h43_3" x="645" y="45" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h43_4" x="645" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h43_5" x="645" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h43_6" x="645" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h44_0" x="660" y="0" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h43_6" x="645" y="90" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h44_0" x="660" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h44_1" x="660" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h44_2" x="660" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h44_3" x="660" y="45" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h44_3" x="660" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h44_4" x="660" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h44_5" x="660" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h44_6" x="660" y="90" width="12" height="12" rx="3" fill="#006d32"/>
@@ -602,66 +602,73 @@
     <rect class="cell hit h45_4" x="675" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h45_5" x="675" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h45_6" x="675" y="90" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h46_0" x="690" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h46_1" x="690" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h46_2" x="690" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h46_0" x="690" y="0" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h46_1" x="690" y="15" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h46_2" x="690" y="30" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h46_3" x="690" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h46_4" x="690" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h46_5" x="690" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h46_4" x="690" y="60" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h46_5" x="690" y="75" width="12" height="12" rx="3" fill="#39d353"/>
     <rect class="cell hit h46_6" x="690" y="90" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h47_0" x="705" y="0" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h47_1" x="705" y="15" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h47_0" x="705" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h47_1" x="705" y="15" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h47_2" x="705" y="30" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h47_3" x="705" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h47_4" x="705" y="60" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h47_5" x="705" y="75" width="12" height="12" rx="3" fill="#39d353"/>
-    <rect class="cell hit h47_6" x="705" y="90" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h48_0" x="720" y="0" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h47_4" x="705" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h47_5" x="705" y="75" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h47_6" x="705" y="90" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h48_0" x="720" y="0" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h48_1" x="720" y="15" width="12" height="12" rx="3" fill="#006d32"/>
     <rect class="cell hit h48_2" x="720" y="30" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h48_3" x="720" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h48_4" x="720" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h48_5" x="720" y="75" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h48_6" x="720" y="90" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h49_0" x="735" y="0" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h49_1" x="735" y="15" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h49_2" x="735" y="30" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h49_3" x="735" y="45" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h48_3" x="720" y="45" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h48_4" x="720" y="60" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h48_5" x="720" y="75" width="12" height="12" rx="3" fill="#39d353"/>
+    <rect class="cell hit h48_6" x="720" y="90" width="12" height="12" rx="3" fill="#39d353"/>
+    <rect class="cell hit h49_0" x="735" y="0" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h49_1" x="735" y="15" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h49_2" x="735" y="30" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h49_3" x="735" y="45" width="12" height="12" rx="3" fill="#26a641"/>
     <rect class="cell hit h49_4" x="735" y="60" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h49_5" x="735" y="75" width="12" height="12" rx="3" fill="#39d353"/>
-    <rect class="cell hit h49_6" x="735" y="90" width="12" height="12" rx="3" fill="#39d353"/>
+    <rect class="cell hit h49_5" x="735" y="75" width="12" height="12" rx="3" fill="#26a641"/>
+    <rect class="cell hit h49_6" x="735" y="90" width="12" height="12" rx="3" fill="#26a641"/>
     <rect class="cell hit h50_0" x="750" y="0" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h50_1" x="750" y="15" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h50_2" x="750" y="30" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h50_3" x="750" y="45" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h50_4" x="750" y="60" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h50_5" x="750" y="75" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h50_6" x="750" y="90" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h51_0" x="765" y="0" width="12" height="12" rx="3" fill="#26a641"/>
-    <rect class="cell hit h51_1" x="765" y="15" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h51_2" x="765" y="30" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h51_3" x="765" y="45" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h50_1" x="750" y="15" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h50_2" x="750" y="30" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h50_3" x="750" y="45" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h50_4" x="750" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h50_5" x="750" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h50_6" x="750" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h51_0" x="765" y="0" width="12" height="12" rx="3" fill="#006d32"/>
+    <rect class="cell hit h51_1" x="765" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h51_2" x="765" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
+    <rect class="cell hit h51_3" x="765" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h51_4" x="765" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h51_5" x="765" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
     <rect class="cell hit h51_6" x="765" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h52_0" x="780" y="0" width="12" height="12" rx="3" fill="#006d32"/>
-    <rect class="cell hit h52_1" x="780" y="15" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h52_2" x="780" y="30" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h52_3" x="780" y="45" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h52_4" x="780" y="60" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h52_5" x="780" y="75" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="cell hit h52_6" x="780" y="90" width="12" height="12" rx="3" fill="#0e4429"/>
-    <rect class="bullet b5_4" x="79.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b24_6" x="364.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b24_5" x="364.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b26_1" x="394.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b32_3" x="484.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="cell" x="780" y="0" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell" x="780" y="15" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell" x="780" y="30" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell" x="780" y="45" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell" x="780" y="60" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell" x="780" y="75" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="cell" x="780" y="90" width="12" height="12" rx="3" fill="#161b22"/>
+    <rect class="bullet b4_4" x="64.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b23_6" x="349.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b23_5" x="349.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b25_1" x="379.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b31_3" x="469.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b31_2" x="469.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b31_1" x="469.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b32_4" x="484.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b32_2" x="484.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b32_1" x="484.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b33_4" x="499.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b33_2" x="499.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b33_0" x="499.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b32_0" x="484.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b34_6" x="514.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b35_6" x="529.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b35_5" x="529.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b35_4" x="529.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b35_3" x="529.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b35_2" x="529.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b35_1" x="529.5" y="118" width="3" height="11" rx="1.5"/>
+    <rect class="bullet b35_0" x="529.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b36_6" x="544.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b36_5" x="544.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b36_4" x="544.5" y="118" width="3" height="11" rx="1.5"/>
@@ -774,13 +781,6 @@
     <rect class="bullet b51_2" x="769.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b51_1" x="769.5" y="118" width="3" height="11" rx="1.5"/>
     <rect class="bullet b51_0" x="769.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b52_6" x="784.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b52_5" x="784.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b52_4" x="784.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b52_3" x="784.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b52_2" x="784.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b52_1" x="784.5" y="118" width="3" height="11" rx="1.5"/>
-    <rect class="bullet b52_0" x="784.5" y="118" width="3" height="11" rx="1.5"/>
     <g class="ship">
       <path class="hull" d="M0 122 L14 154 L0 145 L-14 154 Z"/>
       <circle class="cockpit" cx="0" cy="138" r="3"/>
