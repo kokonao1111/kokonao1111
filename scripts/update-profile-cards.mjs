@@ -149,14 +149,15 @@ function renderSummary(stats) {
   ];
 
   const colX = [PAD + 4, W / 2 + 14];
-  const rowY = [140, 216, 292, 368];
+  // ラベルのディセンダと数字の上端がぶつからないよう、ベースライン間隔を 34 とる
+  const rowY = [148, 222, 296, 370];
 
   const body = cells
     .map((cell, index) => {
       const x = colX[index % 2];
       const y = rowY[Math.floor(index / 2)];
       return (
-        `<text class="label" x="${x}" y="${y - 26}">${escapeXml(cell[0])}</text>` +
+        `<text class="label" x="${x}" y="${y - 34}">${escapeXml(cell[0])}</text>` +
         `<text class="value" x="${x}" y="${y}">${escapeXml(cell[1])}</text>`
       );
     })

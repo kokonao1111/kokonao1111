@@ -79,12 +79,12 @@
   <tr>
   <td align="center" valign="top">
     <a href="https://github.com/kokonao1111">
-      <img src="./assets/profile-summary.svg?v=202609120118" alt="GitHub プロフィール概要" />
+      <img src="./assets/profile-summary.svg?v=202609120556" alt="GitHub プロフィール概要" />
     </a>
   </td>
   <td align="center" valign="top">
     <a href="https://github.com/kokonao1111?tab=repositories">
-      <img src="./assets/top-languages.svg?v=202609120118" alt="使用言語の内訳" />
+      <img src="./assets/top-languages.svg?v=202609120556" alt="使用言語の内訳" />
     </a>
   </td>
   </tr>
