@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="350" height="220" role="img" aria-label="使用言語の内訳: CSS 30.5%, HTML 24.2%, Swift 20.2%, JavaScript 13.7%, TypeScript 10.3%, Other 1.1%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="350" height="220" role="img" aria-label="使用言語の内訳: CSS 30.4%, HTML 24.2%, Swift 19.8%, JavaScript 14.4%, TypeScript 10.0%, Other 1.0%">
   <title>Top languages</title>
   <style>
     .frame { fill: #0d1117; stroke: #e4e2e2; stroke-width: 2; }
@@ -11,11 +11,11 @@
   <defs><clipPath id="bar"><rect x="30" y="112" width="640" height="26" rx="13"/></clipPath></defs>
   <rect class="frame" x="1" y="1" width="698" height="438" rx="20"/>
   <text class="title" x="30" y="66">TOP LANGUAGES</text>
-  <g clip-path="url(#bar)"><rect x="30.00" y="112" width="195.29" height="26" fill="#663399"/><rect x="225.29" y="112" width="154.75" height="26" fill="#e34c26"/><rect x="380.03" y="112" width="129.53" height="26" fill="#F05138"/><rect x="509.56" y="112" width="87.98" height="26" fill="#f1e05a"/><rect x="597.54" y="112" width="65.60" height="26" fill="#3178c6"/><rect x="663.15" y="112" width="6.85" height="26" fill="#6e7681"/></g>
-  <circle cx="41" cy="222" r="9" fill="#663399"/><text class="lang" x="62" y="229">CSS</text><text class="pct" x="332" y="229" text-anchor="end">30.5%</text>
+  <g clip-path="url(#bar)"><rect x="30.00" y="112" width="194.77" height="26" fill="#663399"/><rect x="224.77" y="112" width="154.89" height="26" fill="#e34c26"/><rect x="379.65" y="112" width="126.92" height="26" fill="#F05138"/><rect x="506.57" y="112" width="92.43" height="26" fill="#f1e05a"/><rect x="599.00" y="112" width="64.28" height="26" fill="#3178c6"/><rect x="663.28" y="112" width="6.72" height="26" fill="#6e7681"/></g>
+  <circle cx="41" cy="222" r="9" fill="#663399"/><text class="lang" x="62" y="229">CSS</text><text class="pct" x="332" y="229" text-anchor="end">30.4%</text>
   <circle cx="369" cy="222" r="9" fill="#e34c26"/><text class="lang" x="390" y="229">HTML</text><text class="pct" x="660" y="229" text-anchor="end">24.2%</text>
-  <circle cx="41" cy="284" r="9" fill="#F05138"/><text class="lang" x="62" y="291">Swift</text><text class="pct" x="332" y="291" text-anchor="end">20.2%</text>
-  <circle cx="369" cy="284" r="9" fill="#f1e05a"/><text class="lang" x="390" y="291">JavaScript</text><text class="pct" x="660" y="291" text-anchor="end">13.7%</text>
-  <circle cx="41" cy="346" r="9" fill="#3178c6"/><text class="lang" x="62" y="353">TypeScript</text><text class="pct" x="332" y="353" text-anchor="end">10.3%</text>
-  <circle cx="369" cy="346" r="9" fill="#6e7681"/><text class="lang" x="390" y="353">Other</text><text class="pct" x="660" y="353" text-anchor="end">1.1%</text>
+  <circle cx="41" cy="284" r="9" fill="#F05138"/><text class="lang" x="62" y="291">Swift</text><text class="pct" x="332" y="291" text-anchor="end">19.8%</text>
+  <circle cx="369" cy="284" r="9" fill="#f1e05a"/><text class="lang" x="390" y="291">JavaScript</text><text class="pct" x="660" y="291" text-anchor="end">14.4%</text>
+  <circle cx="41" cy="346" r="9" fill="#3178c6"/><text class="lang" x="62" y="353">TypeScript</text><text class="pct" x="332" y="353" text-anchor="end">10.0%</text>
+  <circle cx="369" cy="346" r="9" fill="#6e7681"/><text class="lang" x="390" y="353">Other</text><text class="pct" x="660" y="353" text-anchor="end">1.0%</text>
 </svg>
